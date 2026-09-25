@@ -1,0 +1,601 @@
+order_id,order_time,day_of_week,num_items,order_value,prep_time,restaurant_load,rider_assignment_delay,pickup_wait,distance_km,traffic_level,weather,area_type,rider_experience,peak_hour,actual_delivery_time,promised_eta,customer_zone,restaurant_zone,batch_delivery
+ORD-1000,12:55,Monday,3,904,13,High,13,2,1.1,Moderate,Rain,Suburban,Moderate,Yes,35,32,Z8,Z6,No
+ORD-1001,19:48,Saturday,7,1270,19,Moderate,2,3,5.5,Moderate,Clear,Dense Urban,Moderate,Yes,47,51,Z2,Z8,No
+ORD-1002,20:51,Wednesday,6,1607,26,Moderate,2,6,3.3,Low,Hot,Suburban,Moderate,Yes,44,43,Z1,Z3,No
+ORD-1003,20:11,Tuesday,2,449,13,Moderate,15,4,1.6,Moderate,Rain,Suburban,Experienced,Yes,44,35,Z7,Z6,Yes
+ORD-1004,19:28,Monday,2,421,10,Moderate,1,4,4.2,Moderate,Cold,Urban,Moderate,Yes,47,36,Z6,Z3,No
+ORD-1005,11:40,Friday,2,413,9,Low,4,3,3.5,Severe,Clear,Urban,Experienced,No,37,40,Z4,Z8,No
+ORD-1006,10:55,Saturday,1,200,10,Low,7,2,7.0,Low,Rain,Suburban,Moderate,No,39,43,Z8,Z1,No
+ORD-1007,11:57,Friday,4,641,14,Low,7,2,1.8,Moderate,Hot,Dense Urban,Moderate,No,35,29,Z5,Z2,No
+ORD-1008,20:52,Sunday,4,693,21,Moderate,4,6,4.5,Heavy,Clear,Suburban,New,Yes,54,47,Z4,Z6,Yes
+ORD-1009,13:25,Thursday,5,733,21,Moderate,4,3,4.7,Moderate,Clear,Urban,Experienced,Yes,42,40,Z8,Z5,No
+ORD-1010,17:33,Monday,3,684,14,Moderate,8,4,5.8,Low,Rain,Suburban,Moderate,No,50,42,Z2,Z8,Yes
+ORD-1011,14:03,Wednesday,3,327,17,Very High,7,11,6.7,Low,Hot,Suburban,New,Yes,50,54,Z5,Z8,No
+ORD-1012,20:20,Tuesday,4,523,24,Very High,2,3,0.7,Heavy,Clear,Dense Urban,New,Yes,38,28,Z4,Z2,No
+ORD-1013,13:46,Saturday,3,714,27,Very High,2,1,7.0,Moderate,Rain,Suburban,Experienced,Yes,57,58,Z2,Z6,Yes
+ORD-1014,22:48,Saturday,3,386,16,High,2,11,5.1,Moderate,Clear,Suburban,Moderate,No,44,46,Z1,Z7,No
+ORD-1015,09:29,Thursday,7,1394,14,Low,1,3,3.7,Low,Clear,Suburban,Experienced,No,31,40,Z8,Z3,Yes
+ORD-1016,22:55,Wednesday,1,185,12,High,1,3,5.4,Low,Cold,Urban,Moderate,No,33,37,Z1,Z1,No
+ORD-1017,19:21,Thursday,3,345,12,Moderate,3,5,4.4,Heavy,Clear,Urban,Experienced,Yes,38,64,Z7,Z2,No
+ORD-1018,12:50,Saturday,3,531,21,Very High,4,1,5.9,Heavy,Clear,Urban,Moderate,Yes,48,48,Z5,Z8,No
+ORD-1019,11:58,Tuesday,2,557,15,High,1,2,4.9,Moderate,Clear,Urban,Experienced,No,34,45,Z1,Z8,No
+ORD-1020,21:03,Friday,2,341,13,Low,4,3,1.4,Moderate,Clear,Dense Urban,New,Yes,49,28,Z3,Z7,No
+ORD-1021,20:16,Tuesday,7,1562,19,High,2,3,3.2,Moderate,Rain,Urban,Experienced,Yes,37,47,Z2,Z6,No
+ORD-1022,20:35,Saturday,5,1153,17,Very High,4,2,3.3,Heavy,Clear,Urban,Moderate,Yes,37,42,Z4,Z7,No
+ORD-1023,14:35,Friday,5,546,20,Moderate,4,1,1.6,Low,Clear,Suburban,Moderate,No,32,31,Z1,Z5,No
+ORD-1024,23:39,Thursday,2,479,11,Moderate,2,7,0.5,Severe,Hot,Urban,Experienced,No,26,20,Z6,Z7,No
+ORD-1025,20:50,Friday,5,721,11,Low,4,4,3.4,Low,Clear,Suburban,Moderate,Yes,29,48,Z8,Z1,No
+ORD-1026,13:55,Wednesday,4,968,14,High,1,2,4.2,Severe,Clear,Dense Urban,Experienced,Yes,43,43,Z6,Z5,No
+ORD-1027,20:11,Sunday,1,171,9,Moderate,5,3,1.3,Moderate,Clear,Urban,Moderate,Yes,27,26,Z5,Z1,Yes
+ORD-1028,22:27,Monday,2,449,26,Very High,6,3,4.5,Moderate,Hot,Urban,New,Yes,55,44,Z6,Z7,Yes
+ORD-1029,13:27,Wednesday,3,1520,15,High,2,2,1.9,Heavy,Clear,Dense Urban,Experienced,Yes,32,37,Z6,Z7,No
+ORD-1030,13:11,Wednesday,2,298,10,Moderate,3,4,3.7,Moderate,Hot,Urban,Moderate,Yes,31,41,Z2,Z1,No
+ORD-1031,14:55,Tuesday,3,372,14,Very High,3,12,5.7,Heavy,Fog,Suburban,Moderate,No,52,48,Z8,Z3,No
+ORD-1032,12:46,Saturday,1,202,11,High,7,5,0.7,Moderate,Fog,Suburban,New,Yes,29,36,Z7,Z8,No
+ORD-1033,23:14,Monday,2,462,10,Low,4,3,3.8,Low,Clear,Dense Urban,Experienced,No,31,36,Z3,Z3,No
+ORD-1034,21:41,Friday,2,614,15,Moderate,1,2,2.0,Severe,Cold,Dense Urban,Moderate,Yes,36,38,Z5,Z4,No
+ORD-1035,10:01,Saturday,3,854,13,Low,6,4,2.3,Moderate,Rain,Urban,Moderate,No,41,31,Z3,Z3,Yes
+ORD-1036,19:07,Wednesday,2,341,7,Low,5,2,1.3,Heavy,Hot,Dense Urban,Experienced,Yes,24,26,Z1,Z5,No
+ORD-1037,18:13,Wednesday,5,755,10,Moderate,2,4,3.1,Low,Clear,Dense Urban,Experienced,No,29,32,Z2,Z8,No
+ORD-1038,21:18,Thursday,2,235,10,Moderate,6,4,6.4,Moderate,Rain,Urban,New,Yes,46,49,Z6,Z1,No
+ORD-1039,20:28,Wednesday,2,278,18,High,8,6,3.8,Severe,Clear,Urban,Moderate,Yes,53,40,Z8,Z8,No
+ORD-1040,21:14,Wednesday,6,1027,13,Moderate,10,1,1.7,Low,Cold,Suburban,Experienced,Yes,31,32,Z6,Z4,No
+ORD-1041,20:20,Friday,2,519,21,Very High,7,4,4.8,Moderate,Clear,Urban,Moderate,Yes,52,42,Z5,Z2,Yes
+ORD-1042,11:47,Wednesday,2,606,8,Moderate,2,2,2.3,Low,Clear,Urban,Experienced,No,20,49,Z1,Z5,No
+ORD-1043,20:45,Saturday,2,283,19,Moderate,3,4,0.7,Severe,Clear,Urban,Moderate,Yes,33,29,Z6,Z4,No
+ORD-1044,13:54,Wednesday,3,442,18,Very High,8,4,2.9,Moderate,Clear,Urban,Moderate,Yes,42,58,Z1,Z6,No
+ORD-1045,21:48,Sunday,3,559,15,Very High,2,5,3.4,Moderate,Clear,Urban,Experienced,Yes,35,37,Z5,Z5,No
+ORD-1046,19:27,Sunday,3,611,17,High,1,4,2.9,Heavy,Clear,Suburban,Experienced,Yes,44,37,Z4,Z8,No
+ORD-1047,13:18,Saturday,5,1024,11,Moderate,2,3,1.2,Moderate,Fog,Urban,Experienced,Yes,24,32,Z4,Z8,No
+ORD-1048,12:41,Wednesday,4,429,17,Very High,2,11,1.0,Moderate,Rain,Dense Urban,Moderate,Yes,39,31,Z6,Z8,No
+ORD-1049,19:27,Friday,4,478,18,High,1,9,4.4,Severe,Clear,Urban,Moderate,Yes,51,45,Z1,Z6,No
+ORD-1050,22:15,Saturday,1,262,16,High,16,7,3.3,Heavy,Clear,Urban,Moderate,Yes,52,43,Z6,Z3,No
+ORD-1051,21:43,Wednesday,4,1018,13,Moderate,3,1,7.7,Low,Clear,Urban,Experienced,Yes,37,63,Z3,Z7,No
+ORD-1052,21:00,Friday,3,426,18,Very High,7,7,1.1,Heavy,Clear,Urban,Experienced,Yes,60,28,Z7,Z6,No
+ORD-1053,22:00,Tuesday,5,881,11,Moderate,6,3,1.8,Moderate,Clear,Dense Urban,New,Yes,35,34,Z8,Z1,Yes
+ORD-1054,20:48,Thursday,3,696,27,Very High,2,9,0.5,Low,Rain,Suburban,Experienced,Yes,60,25,Z8,Z8,No
+ORD-1055,22:03,Thursday,5,959,17,Moderate,4,2,3.3,Heavy,Clear,Urban,Moderate,Yes,40,46,Z6,Z1,Yes
+ORD-1056,19:14,Wednesday,2,263,9,Moderate,1,2,6.7,Heavy,Clear,Dense Urban,Moderate,Yes,39,65,Z7,Z4,No
+ORD-1057,20:08,Tuesday,4,755,20,Moderate,11,3,2.1,Severe,Clear,Urban,Moderate,Yes,47,33,Z3,Z3,No
+ORD-1058,13:33,Monday,3,366,15,Very High,3,2,4.6,Heavy,Clear,Dense Urban,Experienced,Yes,41,63,Z6,Z8,No
+ORD-1059,12:35,Monday,4,819,27,High,10,2,1.0,Low,Clear,Suburban,Moderate,Yes,45,34,Z2,Z1,No
+ORD-1060,19:27,Monday,3,466,14,High,4,3,6.7,Moderate,Rain,Urban,Moderate,Yes,46,53,Z4,Z1,Yes
+ORD-1061,18:43,Monday,2,287,12,Low,1,1,2.1,Moderate,Clear,Dense Urban,Moderate,No,45,30,Z7,Z4,No
+ORD-1062,21:11,Sunday,1,201,12,Very High,14,3,3.0,Moderate,Clear,Suburban,Moderate,Yes,53,54,Z8,Z3,No
+ORD-1063,13:00,Tuesday,4,539,18,Very High,3,4,1.7,Severe,Rain,Dense Urban,Moderate,Yes,43,40,Z3,Z6,No
+ORD-1064,20:20,Thursday,3,362,18,High,1,6,1.9,Severe,Clear,Urban,Experienced,Yes,35,57,Z7,Z6,No
+ORD-1065,14:35,Sunday,3,649,16,High,5,8,1.4,Moderate,Rain,Urban,Experienced,No,37,34,Z8,Z6,No
+ORD-1066,12:15,Thursday,2,292,13,Moderate,3,4,2.7,Heavy,Rain,Dense Urban,Experienced,Yes,39,36,Z4,Z2,No
+ORD-1067,20:21,Sunday,1,293,13,Very High,2,2,2.7,Moderate,Clear,Dense Urban,New,Yes,38,36,Z6,Z7,No
+ORD-1068,11:16,Wednesday,2,509,10,Moderate,3,6,2.4,Moderate,Fog,Urban,Moderate,No,30,29,Z7,Z6,No
+ORD-1069,20:52,Sunday,2,485,12,Moderate,13,5,1.6,Severe,Hot,Urban,Moderate,Yes,40,34,Z6,Z5,No
+ORD-1070,22:03,Thursday,4,431,13,High,4,10,5.2,Moderate,Clear,Urban,Experienced,Yes,65,64,Z5,Z8,No
+ORD-1071,18:55,Saturday,2,438,16,Very High,2,4,4.2,Moderate,Rain,Urban,Moderate,No,40,44,Z2,Z7,No
+ORD-1072,18:37,Wednesday,3,388,10,Moderate,6,4,3.6,Moderate,Clear,Dense Urban,Moderate,No,36,34,Z1,Z7,No
+ORD-1073,18:29,Tuesday,2,499,13,High,2,8,7.0,Moderate,Clear,Suburban,Moderate,No,45,49,Z8,Z6,No
+ORD-1074,22:51,Tuesday,2,271,9,Moderate,1,4,7.5,Low,Rain,Suburban,Experienced,No,33,53,Z4,Z3,No
+ORD-1075,17:59,Tuesday,3,487,14,High,2,7,2.9,Severe,Hot,Urban,New,No,38,33,Z2,Z8,No
+ORD-1076,13:23,Friday,1,244,15,Very High,8,4,7.1,Heavy,Clear,Suburban,Moderate,Yes,52,49,Z3,Z3,No
+ORD-1077,19:17,Friday,2,312,11,Very High,3,7,1.5,Moderate,Cold,Urban,Moderate,Yes,29,29,Z5,Z2,No
+ORD-1078,13:50,Saturday,3,473,14,High,8,8,1.4,Moderate,Rain,Urban,New,Yes,40,35,Z2,Z2,No
+ORD-1079,12:36,Thursday,1,183,10,High,4,3,2.4,Moderate,Clear,Dense Urban,Moderate,Yes,30,35,Z8,Z2,No
+ORD-1080,11:46,Tuesday,3,485,17,High,1,1,5.7,Heavy,Cold,Urban,Moderate,No,62,45,Z4,Z5,No
+ORD-1081,19:06,Friday,3,569,10,Low,4,6,1.5,Moderate,Hot,Urban,Experienced,Yes,31,28,Z7,Z4,Yes
+ORD-1082,20:55,Monday,2,373,9,Moderate,5,3,3.3,Moderate,Clear,Suburban,Experienced,Yes,28,33,Z3,Z5,No
+ORD-1083,13:44,Sunday,3,354,8,Moderate,7,1,3.4,Heavy,Rain,Dense Urban,Moderate,Yes,36,38,Z7,Z5,No
+ORD-1084,12:31,Saturday,5,1931,28,Very High,7,2,4.3,Heavy,Clear,Suburban,Experienced,Yes,52,47,Z1,Z8,No
+ORD-1085,18:27,Friday,2,526,7,Low,2,2,2.5,Heavy,Clear,Dense Urban,Moderate,No,26,34,Z2,Z3,No
+ORD-1086,21:20,Monday,1,230,19,Very High,6,12,6.0,Heavy,Clear,Suburban,Moderate,Yes,61,46,Z1,Z4,No
+ORD-1087,21:13,Thursday,1,164,10,Moderate,4,2,2.3,Heavy,Clear,Dense Urban,Experienced,Yes,31,49,Z7,Z6,No
+ORD-1088,20:59,Tuesday,4,968,13,High,6,9,2.1,Moderate,Clear,Dense Urban,Experienced,Yes,61,37,Z6,Z3,No
+ORD-1089,09:23,Sunday,3,445,10,Low,6,1,2.4,Moderate,Clear,Suburban,Moderate,No,27,53,Z2,Z6,No
+ORD-1090,13:37,Thursday,3,533,17,Moderate,5,3,6.5,Moderate,Clear,Suburban,New,Yes,50,52,Z4,Z4,No
+ORD-1091,14:01,Saturday,3,491,11,Moderate,3,4,2.2,Moderate,Clear,Urban,Moderate,Yes,27,46,Z1,Z5,No
+ORD-1092,21:10,Monday,3,564,21,High,4,3,2.7,Heavy,Clear,Urban,New,Yes,47,37,Z8,Z1,Yes
+ORD-1093,17:21,Thursday,4,1234,10,Low,4,2,7.3,Moderate,Clear,Suburban,Experienced,No,36,55,Z2,Z5,No
+ORD-1094,19:16,Tuesday,3,452,18,High,1,2,3.1,Moderate,Hot,Dense Urban,Moderate,Yes,37,39,Z5,Z8,No
+ORD-1095,19:17,Friday,5,1342,10,High,12,5,5.2,Heavy,Clear,Urban,Moderate,Yes,47,49,Z8,Z5,No
+ORD-1096,22:34,Sunday,4,817,17,Moderate,1,2,8.7,Moderate,Clear,Suburban,Moderate,No,42,60,Z6,Z3,No
+ORD-1097,16:07,Thursday,5,667,10,Moderate,1,9,1.6,Moderate,Clear,Dense Urban,Moderate,No,50,31,Z2,Z4,No
+ORD-1098,12:54,Saturday,1,412,6,Low,6,6,5.2,Low,Cold,Urban,Experienced,Yes,39,40,Z1,Z1,No
+ORD-1099,19:28,Monday,2,462,13,High,5,4,0.4,Heavy,Hot,Dense Urban,Experienced,Yes,30,27,Z8,Z3,No
+ORD-1100,17:24,Wednesday,1,157,15,High,3,3,5.1,Low,Fog,Suburban,Moderate,No,36,46,Z1,Z3,No
+ORD-1101,13:10,Tuesday,3,465,13,High,1,2,3.7,Low,Clear,Urban,Experienced,Yes,32,42,Z5,Z7,No
+ORD-1102,20:22,Tuesday,5,638,23,High,10,15,2.5,Moderate,Clear,Dense Urban,Moderate,Yes,60,39,Z6,Z2,No
+ORD-1103,18:42,Tuesday,3,398,11,Moderate,1,4,1.7,Heavy,Fog,Urban,Experienced,No,27,25,Z4,Z7,No
+ORD-1104,17:35,Friday,2,283,18,Moderate,2,5,5.0,Low,Clear,Suburban,Moderate,No,39,37,Z8,Z2,No
+ORD-1105,13:35,Thursday,4,720,9,Moderate,7,6,2.9,Moderate,Cold,Dense Urban,Moderate,Yes,36,42,Z8,Z3,No
+ORD-1106,20:05,Friday,5,903,38,High,7,3,4.3,Heavy,Clear,Urban,Moderate,Yes,66,47,Z7,Z4,No
+ORD-1107,15:36,Friday,2,460,9,Low,2,4,5.3,Heavy,Hot,Urban,New,No,42,47,Z5,Z7,No
+ORD-1108,18:47,Wednesday,4,724,21,High,3,4,3.2,Moderate,Cold,Urban,Moderate,No,40,35,Z2,Z3,No
+ORD-1109,21:40,Sunday,4,690,25,Very High,2,9,9.1,Severe,Clear,Urban,Moderate,Yes,91,72,Z4,Z8,No
+ORD-1110,18:56,Friday,2,589,8,Low,6,4,6.0,Low,Clear,Urban,New,No,35,59,Z2,Z6,No
+ORD-1111,20:06,Sunday,2,292,10,Moderate,2,8,3.1,Heavy,Fog,Dense Urban,Experienced,Yes,37,38,Z1,Z2,No
+ORD-1112,21:34,Saturday,2,430,14,High,2,3,1.0,Severe,Clear,Dense Urban,Experienced,Yes,45,30,Z8,Z6,Yes
+ORD-1113,13:42,Saturday,2,492,24,Very High,3,5,0.7,Heavy,Clear,Urban,Moderate,Yes,38,29,Z2,Z8,No
+ORD-1114,13:30,Friday,3,760,29,Very High,7,6,2.8,Heavy,Clear,Dense Urban,Experienced,Yes,57,35,Z5,Z3,No
+ORD-1115,10:57,Saturday,2,281,12,High,2,8,4.1,Low,Clear,Dense Urban,Experienced,No,35,35,Z1,Z4,No
+ORD-1116,13:11,Saturday,2,323,16,High,1,6,5.9,Heavy,Cold,Suburban,Moderate,Yes,45,54,Z6,Z8,No
+ORD-1117,19:21,Saturday,3,518,15,Moderate,6,2,4.7,Low,Clear,Dense Urban,Experienced,Yes,39,44,Z6,Z1,No
+ORD-1118,13:46,Monday,5,1084,14,Moderate,2,9,3.4,Heavy,Clear,Urban,Experienced,Yes,41,42,Z1,Z6,No
+ORD-1119,16:35,Thursday,1,281,11,Low,2,4,2.8,Low,Fog,Dense Urban,New,No,31,30,Z3,Z6,No
+ORD-1120,19:45,Saturday,2,335,19,Very High,3,3,1.3,Moderate,Cold,Urban,Moderate,Yes,33,34,Z6,Z4,No
+ORD-1121,18:29,Monday,1,290,13,Very High,10,3,3.6,Low,Hot,Suburban,Experienced,No,36,36,Z1,Z7,No
+ORD-1122,20:11,Friday,2,435,15,High,10,1,6.8,Low,Clear,Suburban,Experienced,Yes,44,54,Z3,Z7,No
+ORD-1123,20:07,Friday,2,281,7,Moderate,4,2,1.5,Heavy,Rain,Urban,Moderate,Yes,23,32,Z4,Z5,No
+ORD-1124,20:33,Wednesday,3,710,9,Low,5,3,4.5,Moderate,Clear,Dense Urban,Moderate,Yes,37,41,Z1,Z6,No
+ORD-1125,12:45,Wednesday,3,308,25,High,7,6,11.1,Heavy,Fog,Urban,Moderate,Yes,96,80,Z5,Z2,No
+ORD-1126,22:24,Saturday,3,505,14,Moderate,5,2,3.1,Severe,Clear,Dense Urban,Moderate,Yes,45,58,Z6,Z4,Yes
+ORD-1127,12:13,Monday,6,538,20,Moderate,7,5,2.7,Moderate,Clear,Suburban,Experienced,Yes,45,58,Z1,Z7,Yes
+ORD-1128,21:23,Monday,2,379,9,Moderate,5,3,1.7,Heavy,Clear,Dense Urban,New,Yes,38,29,Z5,Z7,No
+ORD-1129,19:31,Sunday,4,998,14,High,6,3,2.2,Moderate,Clear,Dense Urban,Experienced,Yes,34,32,Z2,Z7,No
+ORD-1130,11:57,Saturday,4,885,10,Low,2,2,3.5,Low,Clear,Urban,Moderate,No,25,34,Z2,Z5,No
+ORD-1131,20:40,Friday,2,177,22,Moderate,1,1,4.6,Moderate,Clear,Suburban,Moderate,Yes,44,42,Z6,Z6,Yes
+ORD-1132,23:06,Saturday,3,578,19,Very High,6,6,2.9,Moderate,Cold,Urban,Moderate,No,44,36,Z2,Z2,No
+ORD-1133,19:34,Wednesday,5,1061,26,Very High,2,5,1.7,Low,Rain,Urban,Moderate,Yes,41,34,Z7,Z7,No
+ORD-1134,14:08,Saturday,3,695,10,Moderate,3,2,4.9,Moderate,Clear,Dense Urban,Experienced,Yes,36,44,Z5,Z3,No
+ORD-1135,20:53,Friday,2,451,15,Very High,3,3,2.7,Moderate,Hot,Suburban,Experienced,Yes,31,37,Z2,Z5,No
+ORD-1136,20:14,Wednesday,3,679,9,Low,7,3,2.6,Heavy,Hot,Urban,Experienced,Yes,31,31,Z1,Z6,No
+ORD-1137,17:30,Wednesday,5,533,26,High,2,2,5.4,Low,Clear,Urban,Experienced,No,43,41,Z2,Z5,No
+ORD-1138,19:25,Thursday,3,528,9,High,6,9,1.7,Heavy,Fog,Dense Urban,Experienced,Yes,39,32,Z2,Z5,No
+ORD-1139,20:25,Monday,2,293,9,Moderate,2,2,1.9,Moderate,Clear,Urban,New,Yes,22,34,Z4,Z6,No
+ORD-1140,21:03,Saturday,3,520,17,Moderate,6,2,5.8,Heavy,Rain,Dense Urban,Experienced,Yes,56,54,Z3,Z4,No
+ORD-1141,22:43,Sunday,3,568,9,Moderate,9,3,2.7,Low,Clear,Dense Urban,Moderate,No,33,30,Z3,Z6,No
+ORD-1142,13:40,Sunday,2,276,55,Moderate,6,3,5.2,Severe,Clear,Urban,Experienced,Yes,90,47,Z7,Z2,No
+ORD-1143,20:05,Friday,2,296,18,Very High,3,6,1.1,Low,Clear,Urban,Moderate,Yes,37,34,Z5,Z7,Yes
+ORD-1144,10:32,Tuesday,4,854,9,Moderate,2,4,3.4,Moderate,Rain,Dense Urban,New,No,35,57,Z6,Z5,No
+ORD-1145,14:03,Monday,4,558,16,Moderate,2,4,2.3,Severe,Clear,Urban,Moderate,Yes,36,51,Z2,Z3,No
+ORD-1146,12:30,Friday,2,324,8,High,5,7,3.6,Heavy,Clear,Urban,New,Yes,35,43,Z2,Z2,No
+ORD-1147,21:03,Wednesday,1,187,9,Moderate,1,2,6.0,Severe,Clear,Suburban,Experienced,Yes,60,52,Z6,Z2,No
+ORD-1148,15:10,Wednesday,2,550,13,Moderate,1,9,1.4,Heavy,Hot,Dense Urban,Moderate,No,53,31,Z5,Z8,Yes
+ORD-1149,13:16,Saturday,5,774,22,High,2,2,2.2,Heavy,Clear,Urban,Experienced,Yes,37,43,Z4,Z3,No
+ORD-1150,19:16,Tuesday,2,213,9,Moderate,6,2,4.6,Low,Rain,Urban,New,Yes,34,38,Z6,Z6,No
+ORD-1151,19:05,Friday,1,147,12,Moderate,3,3,5.1,Moderate,Hot,Dense Urban,Moderate,Yes,39,45,Z1,Z8,No
+ORD-1152,22:41,Saturday,2,373,9,Moderate,1,5,2.0,Low,Clear,Dense Urban,New,No,26,30,Z3,Z4,No
+ORD-1153,12:29,Monday,10,954,45,High,3,5,1.5,Severe,Clear,Urban,New,Yes,76,62,Z8,Z8,No
+ORD-1154,19:24,Friday,3,397,10,Moderate,5,5,3.2,Severe,Clear,Urban,Moderate,Yes,57,40,Z5,Z8,No
+ORD-1155,14:17,Saturday,2,260,14,High,2,3,2.5,Moderate,Clear,Urban,New,Yes,30,37,Z1,Z1,No
+ORD-1156,23:25,Thursday,3,1010,8,Low,3,2,3.2,Moderate,Rain,Suburban,Moderate,No,26,32,Z4,Z8,No
+ORD-1157,18:52,Wednesday,6,1349,11,Low,1,2,6.4,Low,Clear,Suburban,Moderate,No,30,49,Z5,Z5,No
+ORD-1158,12:32,Tuesday,1,170,7,Moderate,6,10,3.5,Moderate,Clear,Suburban,Moderate,Yes,34,34,Z5,Z2,No
+ORD-1159,11:21,Sunday,5,644,13,High,2,4,5.1,Heavy,Clear,Dense Urban,New,No,45,54,Z8,Z2,No
+ORD-1160,19:14,Thursday,3,354,12,Moderate,9,3,0.9,Heavy,Cold,Suburban,New,Yes,31,31,Z1,Z6,No
+ORD-1161,20:35,Tuesday,2,369,7,Moderate,10,4,3.7,Low,Hot,Suburban,New,Yes,34,34,Z5,Z5,No
+ORD-1162,14:37,Monday,2,352,11,Moderate,1,1,6.2,Low,Clear,Suburban,Experienced,No,26,40,Z5,Z3,No
+ORD-1163,10:03,Tuesday,4,441,18,Low,3,1,3.8,Moderate,Clear,Urban,Moderate,No,35,53,Z1,Z2,No
+ORD-1164,20:41,Saturday,2,397,13,High,5,3,1.0,Moderate,Clear,Urban,Experienced,Yes,28,28,Z1,Z7,No
+ORD-1165,13:24,Tuesday,4,981,26,High,1,7,14.0,Moderate,Clear,Suburban,Moderate,Yes,63,85,Z5,Z3,No
+ORD-1166,13:27,Saturday,4,814,14,High,4,10,4.2,Moderate,Cold,Suburban,Experienced,Yes,42,39,Z2,Z8,No
+ORD-1167,10:20,Sunday,3,532,15,High,5,6,4.9,Moderate,Clear,Urban,Experienced,No,42,41,Z7,Z3,No
+ORD-1168,14:05,Thursday,3,835,18,Very High,2,14,1.8,Severe,Clear,Dense Urban,Experienced,Yes,48,34,Z6,Z1,No
+ORD-1169,19:10,Friday,3,594,18,High,4,2,3.7,Moderate,Clear,Urban,Moderate,Yes,38,41,Z4,Z3,No
+ORD-1170,15:06,Tuesday,1,207,14,Low,1,3,2.4,Low,Hot,Dense Urban,Moderate,No,34,28,Z5,Z6,Yes
+ORD-1171,20:24,Tuesday,2,458,13,High,5,2,2.4,Severe,Clear,Urban,New,Yes,34,39,Z7,Z5,No
+ORD-1172,20:21,Thursday,1,137,12,Very High,3,9,2.1,Severe,Rain,Urban,New,Yes,42,41,Z6,Z1,No
+ORD-1173,23:14,Saturday,2,593,14,Moderate,4,3,3.1,Severe,Rain,Suburban,Moderate,No,43,38,Z4,Z5,No
+ORD-1174,11:48,Thursday,3,556,27,High,11,2,3.7,Low,Clear,Dense Urban,Experienced,No,54,39,Z1,Z5,No
+ORD-1175,13:30,Sunday,2,350,15,High,7,3,1.3,Heavy,Rain,Dense Urban,Moderate,Yes,36,36,Z1,Z8,No
+ORD-1176,22:46,Saturday,2,459,15,Moderate,3,4,0.7,Low,Clear,Urban,Experienced,No,27,20,Z3,Z8,No
+ORD-1177,12:07,Friday,3,355,22,High,3,3,8.4,Heavy,Fog,Suburban,Moderate,Yes,64,58,Z4,Z8,Yes
+ORD-1178,15:08,Thursday,4,526,17,Moderate,1,1,6.2,Moderate,Clear,Urban,Experienced,No,39,44,Z2,Z4,No
+ORD-1179,12:57,Friday,2,423,8,Moderate,6,6,4.5,Severe,Clear,Urban,Experienced,Yes,46,60,Z1,Z1,Yes
+ORD-1180,19:39,Thursday,2,423,23,High,3,3,9.7,Heavy,Clear,Urban,New,Yes,72,67,Z7,Z5,Yes
+ORD-1181,21:48,Thursday,2,243,20,Moderate,2,3,10.4,Heavy,Clear,Urban,Experienced,Yes,59,70,Z5,Z3,No
+ORD-1182,12:49,Wednesday,2,339,14,Very High,5,2,6.0,Severe,Clear,Dense Urban,Experienced,Yes,54,53,Z7,Z1,No
+ORD-1183,20:02,Tuesday,2,278,8,Low,3,5,5.3,Low,Rain,Suburban,Moderate,Yes,33,41,Z7,Z5,No
+ORD-1184,12:10,Sunday,4,603,19,High,6,4,1.7,Low,Clear,Dense Urban,Moderate,Yes,40,35,Z8,Z2,No
+ORD-1185,16:25,Monday,8,959,22,Moderate,1,4,10.2,Moderate,Fog,Urban,Experienced,No,59,74,Z7,Z5,Yes
+ORD-1186,15:11,Monday,2,460,9,Low,27,9,5.5,Moderate,Clear,Urban,Moderate,No,62,44,Z3,Z4,No
+ORD-1187,15:03,Monday,1,213,9,Low,7,2,3.7,Moderate,Rain,Suburban,Experienced,No,32,32,Z5,Z1,No
+ORD-1188,19:29,Thursday,2,268,13,High,4,8,2.8,Moderate,Clear,Urban,New,Yes,46,36,Z7,Z7,No
+ORD-1189,19:47,Friday,2,409,14,Moderate,2,1,2.4,Severe,Hot,Dense Urban,Experienced,Yes,32,34,Z2,Z8,No
+ORD-1190,12:51,Wednesday,3,516,13,High,1,3,1.1,Heavy,Hot,Urban,New,Yes,25,32,Z1,Z5,No
+ORD-1191,19:18,Saturday,3,509,17,Moderate,4,2,6.8,Moderate,Fog,Suburban,Moderate,Yes,48,51,Z8,Z4,Yes
+ORD-1192,19:30,Wednesday,1,116,60,Low,5,4,1.8,Severe,Clear,Dense Urban,Experienced,Yes,85,27,Z7,Z1,No
+ORD-1193,17:50,Tuesday,2,247,12,Moderate,2,2,1.1,Moderate,Clear,Urban,Moderate,No,23,28,Z1,Z1,No
+ORD-1194,22:53,Thursday,2,330,21,Very High,1,6,1.2,Moderate,Hot,Urban,Experienced,No,35,31,Z1,Z8,No
+ORD-1195,22:10,Thursday,2,264,12,Moderate,4,4,5.1,Heavy,Clear,Dense Urban,Moderate,Yes,45,55,Z5,Z5,No
+ORD-1196,18:48,Friday,3,461,9,Low,1,4,2.7,Low,Fog,Dense Urban,Moderate,No,26,36,Z6,Z5,No
+ORD-1197,12:46,Wednesday,3,620,11,Moderate,5,3,8.8,Severe,Clear,Urban,Experienced,Yes,61,66,Z6,Z2,No
+ORD-1198,14:37,Thursday,3,660,7,Low,2,2,1.4,Low,Rain,Urban,Experienced,No,18,25,Z2,Z3,No
+ORD-1199,23:32,Wednesday,3,505,25,High,10,5,4.9,Low,Rain,Suburban,Moderate,No,57,39,Z8,Z1,No
+ORD-1200,19:28,Tuesday,4,606,14,High,2,2,4.6,Severe,Clear,Urban,New,Yes,47,48,Z2,Z4,Yes
+ORD-1201,22:13,Wednesday,4,385,16,Moderate,7,2,6.6,Heavy,Hot,Dense Urban,Moderate,Yes,56,52,Z2,Z8,No
+ORD-1202,13:14,Friday,3,520,9,Low,8,2,0.9,Moderate,Clear,Urban,Moderate,Yes,26,28,Z2,Z6,No
+ORD-1203,13:32,Sunday,1,173,9,Low,3,5,3.8,Moderate,Clear,Dense Urban,Experienced,Yes,33,41,Z5,Z6,No
+ORD-1204,17:05,Thursday,1,164,7,Low,3,2,9.5,Low,Cold,Suburban,Experienced,No,34,57,Z1,Z3,No
+ORD-1205,20:13,Thursday,2,438,34,Very High,2,3,1.0,Severe,Hot,Urban,Moderate,Yes,48,30,Z8,Z1,No
+ORD-1206,13:06,Wednesday,1,130,9,Low,7,4,3.1,Moderate,Clear,Suburban,Experienced,Yes,30,31,Z1,Z7,No
+ORD-1207,14:12,Thursday,1,227,10,Moderate,7,2,6.6,Low,Clear,Suburban,Moderate,Yes,34,59,Z7,Z3,No
+ORD-1208,14:07,Sunday,4,499,13,Moderate,2,1,0.9,Moderate,Clear,Dense Urban,Moderate,Yes,25,32,Z7,Z3,No
+ORD-1209,18:45,Tuesday,3,328,9,Low,2,3,4.7,Moderate,Clear,Urban,Moderate,No,30,40,Z1,Z7,No
+ORD-1210,12:58,Thursday,5,619,16,High,11,9,2.4,Low,Hot,Suburban,New,Yes,65,43,Z5,Z7,No
+ORD-1211,20:07,Sunday,2,258,13,Moderate,7,2,3.7,Severe,Hot,Dense Urban,New,Yes,49,38,Z8,Z2,No
+ORD-1212,11:51,Saturday,3,502,8,Low,3,7,4.5,Moderate,Rain,Urban,New,No,36,36,Z2,Z1,No
+ORD-1213,20:30,Friday,4,1243,21,High,6,5,3.7,Heavy,Clear,Urban,New,Yes,49,45,Z5,Z4,No
+ORD-1214,13:45,Friday,2,616,12,High,3,4,3.8,Heavy,Fog,Urban,Experienced,Yes,36,38,Z8,Z5,No
+ORD-1215,13:43,Monday,3,468,13,Moderate,1,4,1.8,Heavy,Clear,Urban,New,Yes,28,34,Z1,Z5,No
+ORD-1216,13:05,Friday,1,181,7,Moderate,4,2,6.9,Heavy,Fog,Urban,Experienced,Yes,35,55,Z1,Z6,No
+ORD-1217,16:18,Wednesday,2,556,11,Moderate,7,2,1.9,Moderate,Fog,Urban,Experienced,No,29,28,Z4,Z7,No
+ORD-1218,18:41,Tuesday,3,721,9,Moderate,3,3,2.6,Low,Clear,Dense Urban,Moderate,No,27,28,Z5,Z5,No
+ORD-1219,14:21,Thursday,3,398,14,Moderate,5,3,4.4,Severe,Clear,Dense Urban,Moderate,Yes,54,48,Z4,Z3,Yes
+ORD-1220,19:51,Thursday,5,1016,18,High,2,2,2.2,Moderate,Hot,Urban,Experienced,Yes,31,41,Z6,Z8,No
+ORD-1221,18:43,Saturday,7,1307,13,Low,4,4,1.4,Moderate,Clear,Dense Urban,Moderate,No,31,47,Z2,Z1,No
+ORD-1222,18:37,Friday,3,756,9,Low,2,7,2.1,Low,Clear,Urban,Moderate,No,26,29,Z3,Z3,No
+ORD-1223,18:19,Tuesday,2,832,12,Moderate,1,8,5.5,Moderate,Clear,Urban,New,No,41,41,Z7,Z3,No
+ORD-1224,20:15,Friday,3,507,11,High,1,3,6.0,Moderate,Clear,Urban,New,Yes,33,50,Z2,Z8,No
+ORD-1225,19:38,Thursday,7,1523,17,Moderate,9,4,0.8,Heavy,Clear,Urban,Moderate,Yes,36,38,Z6,Z6,No
+ORD-1226,20:33,Thursday,5,871,6,Low,3,1,2.7,Heavy,Rain,Dense Urban,Moderate,Yes,30,40,Z7,Z8,No
+ORD-1227,11:10,Friday,3,545,16,Low,4,4,0.8,Moderate,Clear,Dense Urban,Experienced,No,32,26,Z2,Z3,No
+ORD-1228,19:10,Thursday,2,269,18,High,11,2,1.5,Moderate,Clear,Dense Urban,Experienced,Yes,42,48,Z6,Z6,No
+ORD-1229,09:14,Saturday,2,325,10,Low,2,3,2.2,Moderate,Clear,Dense Urban,Moderate,No,41,56,Z2,Z7,No
+ORD-1230,12:33,Sunday,4,818,27,Very High,6,10,5.8,Moderate,Rain,Suburban,Experienced,Yes,64,53,Z3,Z3,No
+ORD-1231,13:54,Friday,3,389,15,High,13,4,2.9,Heavy,Clear,Suburban,Experienced,Yes,43,43,Z1,Z6,No
+ORD-1232,19:26,Friday,8,1540,39,High,1,2,4.2,Severe,Clear,Urban,Experienced,Yes,82,64,Z5,Z2,No
+ORD-1233,19:36,Wednesday,3,568,11,Moderate,3,6,1.3,Moderate,Cold,Dense Urban,Experienced,Yes,30,29,Z7,Z6,No
+ORD-1234,18:52,Wednesday,5,780,14,Moderate,2,7,1.6,Moderate,Rain,Urban,Moderate,No,33,50,Z6,Z6,No
+ORD-1235,21:15,Monday,5,1704,14,Moderate,6,2,0.8,Moderate,Clear,Dense Urban,Moderate,Yes,30,50,Z5,Z1,No
+ORD-1236,11:16,Friday,3,726,17,Moderate,2,2,3.1,Low,Clear,Urban,Moderate,No,30,37,Z2,Z1,No
+ORD-1237,17:04,Wednesday,3,671,22,Very High,3,19,3.7,Low,Rain,Urban,New,No,72,36,Z8,Z2,No
+ORD-1238,21:26,Tuesday,3,739,15,Moderate,2,6,0.6,Heavy,Fog,Suburban,Experienced,Yes,29,26,Z1,Z5,No
+ORD-1239,19:39,Sunday,2,372,14,Moderate,6,4,5.6,Heavy,Clear,Urban,New,Yes,51,48,Z6,Z1,Yes
+ORD-1240,12:24,Wednesday,1,168,13,Low,6,4,3.4,Moderate,Rain,Dense Urban,New,Yes,40,45,Z8,Z8,No
+ORD-1241,14:01,Wednesday,6,1250,16,High,2,4,2.8,Low,Clear,Suburban,Experienced,Yes,30,40,Z7,Z1,No
+ORD-1242,11:34,Wednesday,6,1142,12,Low,9,3,2.1,Heavy,Clear,Dense Urban,Experienced,No,38,37,Z5,Z3,No
+ORD-1243,21:55,Friday,10,2187,21,Moderate,6,13,5.3,Moderate,Clear,Suburban,Experienced,Yes,54,73,Z8,Z2,No
+ORD-1244,13:02,Friday,2,372,12,Moderate,2,5,5.3,Moderate,Clear,Urban,Experienced,Yes,50,42,Z7,Z3,No
+ORD-1245,11:25,Friday,4,633,15,Moderate,2,1,4.8,Low,Hot,Urban,Moderate,No,31,40,Z3,Z4,No
+ORD-1246,23:01,Wednesday,3,444,11,Low,2,10,1.3,Low,Clear,Urban,Moderate,No,30,27,Z2,Z5,No
+ORD-1247,13:05,Sunday,3,374,13,Moderate,9,7,2.9,Heavy,Hot,Dense Urban,Moderate,Yes,46,40,Z5,Z2,No
+ORD-1248,13:03,Wednesday,4,474,17,High,5,5,2.0,Moderate,Hot,Dense Urban,New,Yes,39,37,Z6,Z2,No
+ORD-1249,13:08,Monday,2,534,22,Very High,5,4,6.0,Heavy,Clear,Urban,New,Yes,59,49,Z3,Z2,Yes
+ORD-1250,22:40,Friday,2,364,16,High,2,5,3.5,Moderate,Clear,Urban,Moderate,No,34,36,Z1,Z7,No
+ORD-1251,12:09,Sunday,3,565,26,High,2,7,3.4,Heavy,Clear,Dense Urban,Experienced,Yes,53,42,Z5,Z5,No
+ORD-1252,11:18,Tuesday,3,416,14,Moderate,9,3,2.2,Low,Hot,Suburban,New,No,35,30,Z2,Z7,No
+ORD-1253,11:33,Tuesday,1,170,13,High,1,3,8.4,Low,Clear,Urban,Moderate,No,37,50,Z5,Z3,No
+ORD-1254,19:55,Monday,3,615,13,High,5,3,5.5,Low,Hot,Urban,Experienced,Yes,36,70,Z3,Z1,No
+ORD-1255,09:20,Sunday,3,551,13,Low,3,3,10.3,Low,Clear,Suburban,Experienced,No,46,58,Z8,Z7,Yes
+ORD-1256,16:46,Friday,2,588,11,High,1,7,3.7,Low,Clear,Suburban,New,No,30,35,Z5,Z7,No
+ORD-1257,17:15,Saturday,1,98,11,Moderate,5,8,6.1,Low,Clear,Dense Urban,Experienced,No,45,37,Z8,Z4,No
+ORD-1258,16:38,Sunday,2,368,16,Moderate,4,4,1.1,Heavy,Fog,Dense Urban,Experienced,No,34,22,Z3,Z4,No
+ORD-1259,18:44,Saturday,3,574,13,Low,4,4,2.6,Low,Rain,Urban,New,No,31,29,Z7,Z6,No
+ORD-1260,11:08,Friday,3,456,12,Low,1,5,2.0,Low,Rain,Dense Urban,Moderate,No,30,27,Z5,Z6,No
+ORD-1261,19:49,Wednesday,3,642,18,Very High,6,3,2.2,Heavy,Clear,Urban,Experienced,Yes,38,35,Z8,Z8,No
+ORD-1262,20:21,Monday,1,165,8,Moderate,7,9,1.4,Heavy,Clear,Urban,Experienced,Yes,31,24,Z2,Z7,No
+ORD-1263,17:47,Wednesday,4,692,15,Low,6,3,0.5,Heavy,Clear,Dense Urban,Experienced,No,31,26,Z3,Z2,No
+ORD-1264,20:15,Monday,3,940,19,High,5,3,4.7,Severe,Cold,Suburban,Moderate,Yes,53,66,Z3,Z8,No
+ORD-1265,13:21,Sunday,5,592,16,High,7,10,6.3,Severe,Rain,Suburban,New,Yes,70,64,Z4,Z7,No
+ORD-1266,19:37,Saturday,7,1394,18,Moderate,12,1,5.8,Moderate,Rain,Dense Urban,Experienced,Yes,61,55,Z2,Z8,Yes
+ORD-1267,14:34,Saturday,3,448,6,Low,1,4,3.5,Heavy,Clear,Dense Urban,Moderate,No,49,33,Z8,Z6,No
+ORD-1268,14:03,Friday,3,336,23,Very High,8,14,7.6,Heavy,Cold,Suburban,Experienced,Yes,68,58,Z4,Z3,No
+ORD-1269,21:44,Friday,2,422,16,High,8,3,3.3,Moderate,Clear,Suburban,Experienced,Yes,38,39,Z2,Z4,No
+ORD-1270,14:55,Thursday,3,250,8,Low,2,2,1.3,Moderate,Clear,Dense Urban,Moderate,No,22,31,Z8,Z5,No
+ORD-1271,10:44,Monday,4,785,13,Low,2,2,0.9,Heavy,Cold,Urban,Moderate,No,24,27,Z6,Z2,No
+ORD-1272,14:23,Sunday,3,326,13,High,3,2,2.9,Moderate,Rain,Urban,Moderate,Yes,30,37,Z8,Z6,No
+ORD-1273,16:55,Tuesday,3,493,9,Low,1,3,2.3,Low,Clear,Urban,New,No,23,34,Z2,Z1,No
+ORD-1274,19:33,Monday,2,279,15,Moderate,5,2,3.0,Severe,Clear,Urban,New,Yes,42,35,Z5,Z7,No
+ORD-1275,20:35,Friday,7,1571,20,Low,2,2,1.6,Moderate,Rain,Urban,Experienced,Yes,32,34,Z2,Z3,No
+ORD-1276,14:55,Monday,3,533,9,Moderate,7,8,2.1,Moderate,Clear,Dense Urban,New,No,36,29,Z8,Z3,No
+ORD-1277,12:40,Thursday,2,392,9,Moderate,3,2,2.4,Heavy,Hot,Urban,Moderate,Yes,26,60,Z8,Z4,No
+ORD-1278,20:42,Saturday,7,725,24,Moderate,4,2,2.6,Severe,Clear,Urban,Moderate,Yes,48,43,Z4,Z1,Yes
+ORD-1279,17:03,Thursday,2,512,15,Moderate,2,3,3.8,Low,Clear,Dense Urban,Experienced,No,34,31,Z2,Z1,No
+ORD-1280,22:10,Wednesday,1,156,8,Moderate,4,6,3.1,Severe,Hot,Urban,Moderate,Yes,35,48,Z4,Z2,No
+ORD-1281,14:28,Friday,5,1307,16,Moderate,9,5,3.8,Moderate,Clear,Suburban,Moderate,Yes,43,45,Z3,Z1,No
+ORD-1282,11:57,Tuesday,5,606,17,Low,5,4,2.1,Low,Clear,Urban,Experienced,No,37,31,Z4,Z1,Yes
+ORD-1283,22:36,Wednesday,4,980,12,Moderate,2,4,7.5,Severe,Clear,Urban,Moderate,No,50,60,Z4,Z3,No
+ORD-1284,20:34,Sunday,5,1120,11,Low,12,2,2.1,Heavy,Hot,Suburban,Experienced,Yes,36,35,Z1,Z2,No
+ORD-1285,10:20,Tuesday,2,508,14,High,1,10,7.7,Moderate,Clear,Urban,New,No,50,52,Z8,Z5,No
+ORD-1286,21:44,Saturday,3,373,9,Moderate,4,7,6.8,Heavy,Clear,Urban,New,Yes,45,52,Z5,Z8,No
+ORD-1287,13:43,Sunday,5,730,33,High,8,5,3.7,Low,Clear,Suburban,Experienced,Yes,67,38,Z4,Z1,No
+ORD-1288,20:06,Sunday,3,514,17,High,3,10,4.8,Moderate,Clear,Suburban,Moderate,Yes,47,42,Z6,Z7,No
+ORD-1289,14:17,Monday,5,1052,13,Moderate,4,5,7.8,Low,Clear,Urban,Moderate,Yes,47,58,Z7,Z2,Yes
+ORD-1290,18:50,Monday,2,654,9,Moderate,1,5,4.4,Heavy,Clear,Suburban,New,No,38,36,Z7,Z5,Yes
+ORD-1291,20:59,Tuesday,4,637,20,High,2,3,1.8,Heavy,Clear,Urban,Moderate,Yes,33,41,Z2,Z7,No
+ORD-1292,13:10,Friday,2,340,16,High,6,2,8.2,Moderate,Clear,Suburban,Experienced,Yes,46,56,Z5,Z3,No
+ORD-1293,19:16,Friday,1,177,8,High,2,1,8.0,Low,Clear,Suburban,Experienced,Yes,38,52,Z3,Z5,No
+ORD-1294,21:04,Sunday,2,510,12,High,13,1,3.6,Moderate,Cold,Urban,Moderate,Yes,38,44,Z3,Z7,No
+ORD-1295,22:38,Monday,2,300,19,Very High,1,1,3.4,Low,Fog,Dense Urban,Moderate,No,37,43,Z6,Z7,No
+ORD-1296,11:30,Thursday,9,1163,38,High,3,15,0.7,Low,Rain,Urban,Experienced,No,62,43,Z6,Z7,No
+ORD-1297,15:37,Saturday,3,663,27,Very High,5,5,4.1,Low,Clear,Dense Urban,Experienced,No,52,40,Z3,Z3,No
+ORD-1298,19:12,Friday,1,178,11,High,1,4,2.9,Low,Clear,Urban,New,Yes,28,30,Z6,Z5,No
+ORD-1299,19:20,Wednesday,2,647,7,High,7,1,1.5,Moderate,Clear,Urban,Experienced,Yes,23,32,Z5,Z6,No
+ORD-1300,10:09,Tuesday,2,370,9,Moderate,5,2,2.4,Moderate,Rain,Urban,Moderate,No,35,27,Z4,Z6,No
+ORD-1301,19:54,Thursday,3,266,14,Moderate,5,2,5.0,Moderate,Clear,Urban,New,Yes,42,40,Z1,Z8,Yes
+ORD-1302,13:49,Tuesday,2,322,9,Moderate,10,5,4.8,Moderate,Clear,Suburban,Moderate,Yes,42,47,Z6,Z6,No
+ORD-1303,21:20,Tuesday,2,195,16,High,4,1,2.9,Heavy,Clear,Urban,Moderate,Yes,34,42,Z5,Z8,No
+ORD-1304,12:58,Saturday,2,338,10,Moderate,6,3,4.5,Heavy,Rain,Urban,Moderate,Yes,39,45,Z5,Z3,No
+ORD-1305,20:41,Monday,2,318,9,Moderate,4,2,3.9,Moderate,Clear,Urban,Experienced,Yes,32,38,Z4,Z4,Yes
+ORD-1306,21:19,Sunday,3,489,7,Moderate,2,1,1.5,Heavy,Clear,Dense Urban,Moderate,Yes,22,40,Z7,Z3,No
+ORD-1307,21:55,Tuesday,2,212,8,Moderate,4,8,3.0,Severe,Hot,Dense Urban,Moderate,Yes,41,40,Z6,Z4,No
+ORD-1308,19:58,Tuesday,2,405,14,Very High,1,4,3.5,Severe,Rain,Urban,Experienced,Yes,40,46,Z7,Z5,No
+ORD-1309,11:15,Monday,2,251,12,Moderate,1,7,7.9,Moderate,Clear,Urban,Moderate,No,44,48,Z2,Z6,No
+ORD-1310,13:29,Wednesday,2,692,16,High,4,2,0.8,Heavy,Clear,Dense Urban,Moderate,Yes,31,23,Z2,Z7,No
+ORD-1311,10:56,Friday,3,830,14,Low,2,4,0.9,Severe,Fog,Dense Urban,New,No,31,45,Z7,Z3,No
+ORD-1312,20:27,Thursday,2,232,14,Very High,1,3,7.5,Moderate,Clear,Urban,Experienced,Yes,59,54,Z5,Z6,No
+ORD-1313,12:34,Sunday,4,725,16,Low,10,3,1.0,Severe,Clear,Dense Urban,Experienced,Yes,39,30,Z3,Z4,No
+ORD-1314,19:37,Friday,4,629,23,Very High,2,4,1.0,Severe,Clear,Dense Urban,Moderate,Yes,40,36,Z1,Z1,No
+ORD-1315,12:36,Wednesday,3,659,12,High,4,4,8.9,Moderate,Rain,Urban,Moderate,Yes,54,61,Z6,Z7,No
+ORD-1316,19:33,Thursday,5,833,25,High,5,5,2.1,Heavy,Clear,Dense Urban,Moderate,Yes,50,61,Z7,Z3,No
+ORD-1317,19:23,Tuesday,2,394,17,High,2,3,1.4,Heavy,Clear,Dense Urban,Experienced,Yes,33,28,Z5,Z2,No
+ORD-1318,14:29,Saturday,4,471,25,High,2,7,3.4,Moderate,Hot,Dense Urban,Experienced,Yes,53,41,Z8,Z5,No
+ORD-1319,12:16,Friday,9,919,23,High,4,3,1.9,Severe,Clear,Dense Urban,Experienced,Yes,64,44,Z8,Z1,No
+ORD-1320,21:20,Friday,1,111,11,Very High,11,4,4.3,Low,Rain,Suburban,Moderate,Yes,61,37,Z3,Z5,No
+ORD-1321,14:06,Monday,5,1140,28,High,3,3,2.2,Moderate,Clear,Urban,Experienced,Yes,57,41,Z8,Z3,No
+ORD-1322,20:12,Sunday,3,596,12,High,2,2,5.2,Moderate,Clear,Suburban,Moderate,Yes,31,50,Z3,Z4,No
+ORD-1323,21:25,Sunday,7,1386,20,Moderate,1,2,2.2,Severe,Clear,Dense Urban,Experienced,Yes,37,38,Z3,Z6,No
+ORD-1324,18:47,Saturday,1,200,12,Low,3,4,2.9,Low,Clear,Urban,Moderate,No,45,50,Z2,Z1,No
+ORD-1325,13:35,Monday,1,213,8,Moderate,1,2,0.6,Severe,Clear,Dense Urban,Moderate,Yes,19,23,Z1,Z2,No
+ORD-1326,21:16,Wednesday,3,406,11,Moderate,1,6,5.8,Low,Clear,Suburban,Moderate,Yes,31,74,Z6,Z1,No
+ORD-1327,21:18,Wednesday,1,206,14,Very High,2,4,1.6,Severe,Clear,Dense Urban,Moderate,Yes,55,49,Z4,Z5,No
+ORD-1328,23:21,Thursday,4,485,14,Low,5,3,6.9,Low,Clear,Suburban,Moderate,No,39,50,Z1,Z5,No
+ORD-1329,22:06,Monday,2,296,26,Very High,1,2,4.0,Heavy,Cold,Urban,Experienced,Yes,47,63,Z5,Z5,No
+ORD-1330,22:30,Tuesday,3,484,9,Low,2,8,0.6,Moderate,Fog,Urban,Moderate,No,24,49,Z7,Z5,No
+ORD-1331,20:55,Thursday,3,431,12,Moderate,5,3,0.9,Heavy,Rain,Dense Urban,Experienced,Yes,30,48,Z2,Z7,No
+ORD-1332,18:48,Sunday,6,743,21,Moderate,1,3,0.8,Moderate,Clear,Dense Urban,Experienced,No,34,33,Z5,Z6,No
+ORD-1333,20:04,Sunday,2,390,18,High,7,6,10.0,Severe,Hot,Urban,Experienced,Yes,79,71,Z5,Z4,Yes
+ORD-1334,20:46,Friday,4,674,25,Very High,9,3,2.1,Heavy,Clear,Suburban,Moderate,Yes,46,34,Z8,Z8,No
+ORD-1335,19:25,Monday,3,509,16,High,6,4,2.0,Heavy,Clear,Suburban,Experienced,Yes,45,30,Z1,Z3,Yes
+ORD-1336,18:12,Friday,1,198,14,High,3,3,2.5,Low,Hot,Dense Urban,Experienced,No,32,29,Z2,Z8,No
+ORD-1337,21:31,Sunday,2,378,14,High,2,6,2.6,Heavy,Clear,Urban,Moderate,Yes,48,39,Z3,Z2,No
+ORD-1338,09:36,Wednesday,2,315,12,High,1,4,4.3,Heavy,Clear,Urban,New,No,35,36,Z5,Z2,No
+ORD-1339,10:13,Monday,2,188,12,High,2,11,5.0,Moderate,Rain,Suburban,Moderate,No,45,48,Z6,Z5,No
+ORD-1340,12:42,Wednesday,2,400,14,Very High,13,9,1.1,Moderate,Clear,Suburban,Moderate,Yes,43,30,Z4,Z7,No
+ORD-1341,11:21,Thursday,4,367,10,Moderate,3,7,5.0,Moderate,Clear,Dense Urban,Experienced,No,41,47,Z2,Z6,No
+ORD-1342,12:53,Sunday,2,438,9,Moderate,4,3,3.4,Moderate,Fog,Urban,Moderate,Yes,29,32,Z3,Z1,No
+ORD-1343,21:11,Sunday,3,570,15,High,11,2,0.9,Moderate,Rain,Urban,Experienced,Yes,50,33,Z4,Z8,No
+ORD-1344,12:30,Monday,2,246,23,Very High,1,2,3.9,Moderate,Hot,Urban,Moderate,Yes,43,43,Z4,Z2,Yes
+ORD-1345,18:02,Friday,4,514,9,Low,1,2,5.5,Low,Clear,Urban,Experienced,No,27,40,Z2,Z4,No
+ORD-1346,18:35,Thursday,1,180,12,Moderate,6,4,5.6,Heavy,Clear,Suburban,Experienced,No,40,45,Z2,Z6,No
+ORD-1347,13:41,Saturday,4,899,9,High,32,6,6.6,Heavy,Clear,Urban,Moderate,Yes,70,60,Z3,Z5,No
+ORD-1348,13:06,Sunday,5,1164,13,Moderate,5,7,3.8,Heavy,Clear,Urban,Experienced,Yes,39,47,Z8,Z8,No
+ORD-1349,22:13,Saturday,2,629,12,Moderate,6,4,6.2,Heavy,Rain,Urban,Moderate,Yes,54,55,Z1,Z3,Yes
+ORD-1350,13:53,Thursday,2,439,18,High,3,3,3.8,Heavy,Clear,Dense Urban,New,Yes,45,39,Z3,Z5,No
+ORD-1351,14:02,Monday,3,382,13,High,1,4,4.8,Heavy,Clear,Dense Urban,Experienced,Yes,43,48,Z6,Z4,Yes
+ORD-1352,12:22,Sunday,1,147,10,Moderate,1,11,7.2,Heavy,Cold,Urban,Moderate,Yes,47,47,Z2,Z6,No
+ORD-1353,18:37,Sunday,3,974,31,High,7,2,5.2,Low,Fog,Urban,Moderate,No,56,59,Z6,Z7,No
+ORD-1354,13:26,Friday,3,827,24,Very High,5,2,6.0,Heavy,Clear,Urban,Experienced,Yes,57,80,Z8,Z3,Yes
+ORD-1355,20:57,Sunday,2,386,9,Moderate,1,2,2.8,Heavy,Cold,Dense Urban,Moderate,Yes,29,38,Z4,Z7,No
+ORD-1356,12:57,Wednesday,3,849,60,High,1,2,0.4,Severe,Clear,Urban,Moderate,Yes,73,29,Z6,Z7,Yes
+ORD-1357,19:01,Wednesday,3,360,25,Very High,5,10,2.4,Moderate,Clear,Suburban,Moderate,Yes,52,40,Z4,Z7,Yes
+ORD-1358,12:29,Sunday,3,935,47,Moderate,2,4,3.7,Moderate,Clear,Suburban,Moderate,Yes,65,38,Z4,Z6,No
+ORD-1359,20:51,Wednesday,4,814,12,Low,2,3,3.5,Moderate,Clear,Urban,Moderate,Yes,32,36,Z8,Z3,Yes
+ORD-1360,20:27,Thursday,1,221,11,High,5,3,4.1,Heavy,Clear,Dense Urban,Moderate,Yes,41,63,Z3,Z8,No
+ORD-1361,13:05,Wednesday,2,314,9,Moderate,5,4,4.3,Heavy,Clear,Urban,Moderate,Yes,54,42,Z4,Z3,No
+ORD-1362,18:08,Tuesday,4,406,21,High,6,8,2.4,Low,Fog,Urban,Experienced,No,61,52,Z1,Z4,No
+ORD-1363,22:44,Thursday,4,760,14,Low,2,2,7.3,Heavy,Clear,Urban,Experienced,No,47,51,Z8,Z7,No
+ORD-1364,22:59,Saturday,1,373,9,Low,1,2,1.5,Low,Clear,Dense Urban,Experienced,No,22,27,Z7,Z7,No
+ORD-1365,21:51,Saturday,1,186,16,Moderate,4,3,1.9,Heavy,Clear,Urban,Moderate,Yes,37,30,Z8,Z2,Yes
+ORD-1366,14:52,Monday,3,429,12,Low,3,3,2.2,Moderate,Clear,Suburban,Moderate,No,27,28,Z3,Z3,No
+ORD-1367,13:27,Wednesday,3,469,21,Very High,2,6,1.5,Low,Clear,Suburban,Moderate,Yes,35,31,Z4,Z8,No
+ORD-1368,09:19,Saturday,3,523,14,High,3,4,7.8,Low,Clear,Suburban,Experienced,No,41,56,Z3,Z2,No
+ORD-1369,13:08,Saturday,3,371,17,High,4,6,5.3,Moderate,Clear,Suburban,Experienced,Yes,45,49,Z6,Z2,Yes
+ORD-1370,22:15,Wednesday,2,430,12,High,5,9,0.5,Heavy,Clear,Urban,New,Yes,32,30,Z5,Z6,No
+ORD-1371,10:36,Saturday,1,164,15,High,5,2,2.5,Low,Clear,Suburban,Experienced,No,51,30,Z8,Z4,No
+ORD-1372,09:17,Saturday,4,1044,26,Moderate,4,2,0.6,Moderate,Clear,Dense Urban,Moderate,No,40,22,Z4,Z5,No
+ORD-1373,19:20,Wednesday,2,214,15,High,3,3,4.3,Heavy,Clear,Urban,Moderate,Yes,42,65,Z5,Z1,Yes
+ORD-1374,14:52,Friday,1,259,16,High,1,7,2.9,Moderate,Fog,Dense Urban,Moderate,No,45,30,Z6,Z1,No
+ORD-1375,12:26,Tuesday,1,148,9,Moderate,2,4,3.3,Low,Clear,Urban,Moderate,Yes,25,32,Z5,Z2,No
+ORD-1376,20:32,Monday,4,725,19,Very High,8,12,0.7,Severe,Hot,Urban,Experienced,Yes,46,28,Z3,Z2,No
+ORD-1377,19:48,Tuesday,3,587,22,High,4,9,5.7,Low,Clear,Suburban,Experienced,Yes,49,47,Z5,Z6,No
+ORD-1378,13:54,Friday,3,525,12,Low,2,2,4.9,Low,Clear,Dense Urban,Experienced,Yes,38,42,Z4,Z8,Yes
+ORD-1379,19:47,Saturday,2,316,10,Moderate,4,8,4.4,Heavy,Hot,Urban,Experienced,Yes,40,57,Z3,Z8,No
+ORD-1380,12:38,Sunday,3,764,11,Moderate,4,4,1.6,Low,Rain,Dense Urban,Experienced,Yes,29,32,Z1,Z3,No
+ORD-1381,20:47,Sunday,1,148,10,High,1,13,1.1,Moderate,Clear,Urban,Moderate,Yes,34,26,Z5,Z2,Yes
+ORD-1382,18:39,Monday,10,2528,28,Moderate,2,1,0.8,Low,Clear,Dense Urban,Moderate,No,42,32,Z3,Z4,Yes
+ORD-1383,12:08,Sunday,3,256,15,Moderate,9,2,3.5,Low,Clear,Urban,Moderate,Yes,38,39,Z3,Z1,No
+ORD-1384,20:24,Monday,6,1093,20,Moderate,5,3,3.3,Moderate,Rain,Urban,Experienced,Yes,46,41,Z6,Z1,Yes
+ORD-1385,19:41,Monday,4,439,10,Moderate,2,2,2.0,Moderate,Clear,Suburban,Experienced,Yes,22,37,Z1,Z2,No
+ORD-1386,14:28,Wednesday,4,670,13,High,7,5,4.8,Moderate,Rain,Suburban,Moderate,Yes,42,51,Z1,Z2,No
+ORD-1387,10:49,Wednesday,3,328,26,Moderate,5,5,1.6,Heavy,Rain,Urban,Experienced,No,46,33,Z7,Z3,No
+ORD-1388,19:12,Sunday,1,138,8,Moderate,3,6,3.7,Severe,Clear,Urban,Moderate,Yes,35,50,Z4,Z5,No
+ORD-1389,13:58,Thursday,3,375,15,High,1,2,6.2,Heavy,Clear,Urban,Experienced,Yes,45,51,Z6,Z4,No
+ORD-1390,15:28,Wednesday,4,578,19,Moderate,5,3,2.2,Moderate,Hot,Dense Urban,Moderate,No,39,37,Z1,Z3,No
+ORD-1391,19:49,Friday,4,358,25,Very High,2,3,4.5,Heavy,Clear,Dense Urban,Moderate,Yes,51,45,Z1,Z8,No
+ORD-1392,21:56,Sunday,4,733,29,Very High,3,4,4.9,Heavy,Clear,Urban,Moderate,Yes,54,51,Z6,Z6,No
+ORD-1393,20:15,Wednesday,3,467,15,Very High,4,6,5.7,Low,Clear,Suburban,Moderate,Yes,38,51,Z2,Z4,No
+ORD-1394,20:22,Saturday,5,735,25,High,3,3,3.4,Moderate,Hot,Dense Urban,Moderate,Yes,70,41,Z3,Z6,Yes
+ORD-1395,21:09,Saturday,4,733,34,Very High,1,15,5.1,Moderate,Clear,Suburban,Experienced,Yes,62,48,Z1,Z3,No
+ORD-1396,12:55,Thursday,3,370,22,High,4,5,5.1,Heavy,Clear,Suburban,Moderate,Yes,51,50,Z5,Z4,No
+ORD-1397,22:26,Saturday,6,1073,20,Very High,2,2,1.4,Moderate,Clear,Dense Urban,Moderate,Yes,33,36,Z7,Z7,No
+ORD-1398,21:48,Friday,4,739,31,Very High,3,3,1.7,Low,Clear,Urban,New,Yes,46,41,Z6,Z6,No
+ORD-1399,19:13,Saturday,3,734,54,High,10,2,3.0,Moderate,Rain,Dense Urban,Experienced,Yes,82,42,Z8,Z7,No
+ORD-1400,13:09,Wednesday,2,462,16,High,8,8,4.5,Low,Clear,Urban,Experienced,Yes,44,54,Z6,Z3,No
+ORD-1401,13:22,Thursday,3,465,12,Low,11,5,0.9,Moderate,Clear,Dense Urban,Experienced,Yes,36,31,Z4,Z4,No
+ORD-1402,18:18,Tuesday,2,404,10,Low,4,2,0.7,Moderate,Clear,Urban,Experienced,No,21,20,Z5,Z4,No
+ORD-1403,11:38,Wednesday,3,571,28,Very High,5,4,3.1,Heavy,Clear,Urban,Moderate,No,52,36,Z7,Z6,No
+ORD-1404,13:03,Sunday,3,547,25,Very High,12,3,2.9,Severe,Rain,Urban,Experienced,Yes,57,42,Z5,Z7,No
+ORD-1405,22:23,Friday,5,440,12,Moderate,7,4,0.6,Low,Clear,Urban,New,Yes,28,42,Z1,Z6,No
+ORD-1406,19:50,Friday,4,495,26,High,16,7,10.1,Moderate,Hot,Suburban,Experienced,Yes,78,68,Z6,Z3,No
+ORD-1407,11:44,Wednesday,2,384,11,Moderate,1,7,2.3,Low,Clear,Urban,Experienced,No,28,30,Z6,Z4,No
+ORD-1408,11:22,Friday,5,687,11,Moderate,2,2,3.8,Low,Clear,Urban,Experienced,No,30,41,Z2,Z5,Yes
+ORD-1409,09:32,Wednesday,2,303,10,Low,1,1,8.6,Severe,Clear,Urban,Moderate,No,57,57,Z5,Z1,No
+ORD-1410,12:48,Thursday,3,417,20,Moderate,5,12,1.6,Heavy,Cold,Dense Urban,New,Yes,53,35,Z8,Z5,Yes
+ORD-1411,22:20,Sunday,3,396,22,Very High,6,4,7.4,Moderate,Clear,Suburban,Experienced,Yes,53,54,Z3,Z6,No
+ORD-1412,22:44,Saturday,3,526,15,High,7,14,2.2,Moderate,Rain,Urban,New,No,47,63,Z7,Z7,No
+ORD-1413,20:56,Thursday,5,1396,14,Low,2,4,5.4,Heavy,Hot,Urban,Experienced,Yes,38,55,Z8,Z6,No
+ORD-1414,18:40,Friday,1,236,7,Low,2,4,3.4,Low,Clear,Urban,Moderate,No,23,35,Z2,Z6,No
+ORD-1415,12:49,Wednesday,3,754,12,Moderate,8,3,2.9,Moderate,Clear,Suburban,New,Yes,35,39,Z8,Z2,No
+ORD-1416,22:22,Saturday,3,348,28,High,35,6,3.0,Moderate,Rain,Urban,Moderate,Yes,84,33,Z8,Z2,No
+ORD-1417,21:16,Wednesday,2,676,13,High,2,3,4.3,Moderate,Hot,Urban,New,Yes,36,43,Z3,Z2,No
+ORD-1418,13:37,Sunday,7,1464,63,Very High,2,7,6.3,Heavy,Rain,Urban,Moderate,Yes,101,62,Z4,Z5,No
+ORD-1419,21:57,Sunday,6,703,23,Very High,6,2,2.3,Heavy,Rain,Dense Urban,Moderate,Yes,46,38,Z7,Z4,No
+ORD-1420,13:46,Saturday,2,315,15,Very High,4,2,7.0,Low,Clear,Urban,Moderate,Yes,42,49,Z5,Z2,Yes
+ORD-1421,20:38,Tuesday,1,253,12,Moderate,10,5,1.5,Moderate,Clear,Suburban,New,Yes,36,27,Z2,Z8,No
+ORD-1422,19:13,Thursday,2,300,15,Very High,6,10,6.6,Low,Clear,Suburban,Experienced,Yes,45,45,Z8,Z1,No
+ORD-1423,13:39,Wednesday,1,153,24,Very High,2,3,5.5,Low,Rain,Suburban,Experienced,Yes,43,40,Z6,Z6,No
+ORD-1424,13:35,Wednesday,3,364,11,Moderate,5,4,2.1,Low,Clear,Urban,Moderate,Yes,29,32,Z5,Z3,No
+ORD-1425,14:02,Tuesday,4,652,20,High,1,4,2.1,Moderate,Hot,Dense Urban,Moderate,Yes,41,35,Z3,Z1,Yes
+ORD-1426,22:57,Friday,6,1480,14,Low,4,2,1.2,Low,Clear,Suburban,Experienced,No,26,30,Z3,Z3,No
+ORD-1427,13:53,Wednesday,3,496,27,High,11,3,2.8,Moderate,Clear,Suburban,Experienced,Yes,51,53,Z3,Z2,No
+ORD-1428,10:41,Tuesday,3,477,18,Moderate,1,4,7.4,Moderate,Clear,Urban,Experienced,No,43,50,Z6,Z5,No
+ORD-1429,14:56,Sunday,2,516,12,Moderate,2,3,1.7,Low,Rain,Urban,Moderate,No,25,30,Z6,Z4,No
+ORD-1430,19:32,Monday,2,358,8,Low,10,2,1.8,Heavy,Cold,Dense Urban,Experienced,Yes,32,29,Z7,Z1,No
+ORD-1431,13:06,Sunday,4,749,10,High,2,6,4.2,Low,Fog,Urban,Experienced,Yes,31,45,Z2,Z3,No
+ORD-1432,14:30,Monday,3,455,14,Moderate,2,2,5.2,Low,Clear,Urban,Moderate,No,32,37,Z5,Z4,No
+ORD-1433,10:28,Thursday,3,289,10,Moderate,4,5,3.0,Heavy,Cold,Urban,Experienced,No,32,36,Z6,Z3,No
+ORD-1434,12:32,Thursday,5,991,17,Moderate,8,6,4.9,Heavy,Clear,Urban,Experienced,Yes,54,44,Z8,Z2,No
+ORD-1435,11:53,Saturday,2,282,21,High,2,8,2.2,Heavy,Clear,Dense Urban,Experienced,No,43,33,Z1,Z1,No
+ORD-1436,12:44,Sunday,4,1074,18,Low,1,2,1.8,Moderate,Fog,Urban,Moderate,Yes,31,30,Z8,Z7,No
+ORD-1437,20:26,Thursday,3,350,19,Very High,2,3,4.9,Heavy,Hot,Urban,Moderate,Yes,43,47,Z3,Z7,No
+ORD-1438,19:40,Saturday,7,769,19,Low,8,2,1.9,Heavy,Rain,Urban,New,Yes,42,41,Z2,Z5,No
+ORD-1439,20:02,Monday,1,255,13,Very High,10,4,3.1,Moderate,Cold,Suburban,Moderate,Yes,38,36,Z4,Z4,No
+ORD-1440,21:18,Monday,3,649,16,Very High,6,1,4.1,Severe,Rain,Urban,Moderate,Yes,49,51,Z6,Z2,No
+ORD-1441,20:19,Wednesday,2,290,11,High,2,2,2.9,Heavy,Hot,Urban,Experienced,Yes,28,39,Z4,Z1,No
+ORD-1442,17:40,Thursday,4,544,24,High,2,2,7.0,Moderate,Clear,Suburban,Experienced,No,45,62,Z1,Z2,No
+ORD-1443,21:24,Thursday,1,166,6,Low,8,3,4.3,Moderate,Cold,Dense Urban,Experienced,Yes,37,40,Z1,Z6,No
+ORD-1444,11:59,Thursday,2,448,15,High,2,6,2.8,Heavy,Clear,Urban,New,No,39,38,Z2,Z3,No
+ORD-1445,12:49,Friday,2,395,16,High,3,4,1.9,Moderate,Clear,Urban,Moderate,Yes,31,34,Z6,Z5,No
+ORD-1446,23:18,Tuesday,5,1268,22,Moderate,1,6,5.5,Moderate,Hot,Suburban,Experienced,No,45,43,Z6,Z7,No
+ORD-1447,14:41,Thursday,3,519,17,Moderate,3,1,5.6,Low,Clear,Urban,Moderate,No,37,42,Z3,Z1,No
+ORD-1448,21:11,Wednesday,2,335,9,Moderate,7,1,4.6,Heavy,Clear,Suburban,Moderate,Yes,33,43,Z3,Z4,No
+ORD-1449,19:28,Sunday,2,270,22,High,3,4,2.9,Heavy,Rain,Dense Urban,Moderate,Yes,48,59,Z3,Z5,No
+ORD-1450,22:11,Tuesday,2,295,9,High,12,2,1.9,Low,Clear,Suburban,Moderate,Yes,31,34,Z7,Z7,No
+ORD-1451,14:11,Monday,2,405,10,Moderate,3,4,3.0,Heavy,Hot,Urban,Moderate,Yes,32,37,Z2,Z8,No
+ORD-1452,12:02,Tuesday,3,384,13,High,2,9,2.6,Heavy,Cold,Urban,Experienced,Yes,35,37,Z1,Z4,No
+ORD-1453,20:41,Saturday,4,467,21,Very High,12,6,1.6,Low,Rain,Urban,New,Yes,48,30,Z5,Z3,No
+ORD-1454,19:25,Tuesday,2,398,12,High,7,17,2.1,Moderate,Cold,Dense Urban,Experienced,Yes,48,36,Z3,Z2,No
+ORD-1455,14:03,Friday,3,470,14,Low,5,3,2.1,Moderate,Hot,Suburban,Moderate,Yes,34,29,Z1,Z7,Yes
+ORD-1456,19:01,Saturday,4,594,20,High,6,8,4.6,Moderate,Clear,Urban,Experienced,Yes,58,46,Z3,Z4,No
+ORD-1457,20:55,Wednesday,1,165,9,High,8,5,5.7,Heavy,Clear,Urban,Moderate,Yes,49,44,Z1,Z4,No
+ORD-1458,12:22,Saturday,1,141,18,Moderate,9,1,2.9,Moderate,Cold,Dense Urban,Experienced,Yes,41,37,Z5,Z5,No
+ORD-1459,12:07,Sunday,4,612,23,High,3,2,2.1,Heavy,Clear,Dense Urban,Experienced,Yes,41,34,Z8,Z2,No
+ORD-1460,19:24,Wednesday,4,602,33,Very High,8,12,4.2,Heavy,Cold,Suburban,Moderate,Yes,71,44,Z5,Z1,No
+ORD-1461,21:27,Wednesday,3,728,15,High,1,6,7.4,Heavy,Clear,Urban,Experienced,Yes,53,58,Z3,Z1,Yes
+ORD-1462,15:11,Friday,4,861,18,High,6,4,1.7,Low,Clear,Suburban,New,No,36,32,Z1,Z6,No
+ORD-1463,20:10,Wednesday,3,392,23,Very High,9,2,2.7,Heavy,Clear,Suburban,Experienced,Yes,56,34,Z2,Z5,Yes
+ORD-1464,13:05,Sunday,2,280,10,Moderate,9,2,1.5,Heavy,Rain,Dense Urban,Moderate,Yes,34,28,Z4,Z1,No
+ORD-1465,14:04,Sunday,1,214,16,High,9,8,4.2,Heavy,Clear,Urban,Experienced,Yes,53,42,Z7,Z1,Yes
+ORD-1466,22:28,Thursday,1,192,11,Moderate,2,2,2.9,Moderate,Clear,Dense Urban,Moderate,Yes,30,36,Z3,Z8,No
+ORD-1467,20:43,Saturday,1,311,14,Moderate,4,3,1.2,Heavy,Clear,Dense Urban,Experienced,Yes,35,32,Z8,Z6,Yes
+ORD-1468,14:11,Monday,2,253,13,High,1,4,7.1,Heavy,Rain,Suburban,Moderate,Yes,69,60,Z7,Z8,No
+ORD-1469,19:59,Saturday,2,391,15,Moderate,1,10,0.4,Heavy,Rain,Dense Urban,Moderate,Yes,38,25,Z3,Z6,Yes
+ORD-1470,21:53,Tuesday,10,1096,32,Very High,9,2,2.1,Heavy,Hot,Dense Urban,Experienced,Yes,56,51,Z8,Z7,No
+ORD-1471,19:05,Thursday,4,850,22,Very High,5,5,3.7,Heavy,Hot,Dense Urban,Moderate,Yes,54,49,Z5,Z8,Yes
+ORD-1472,14:18,Sunday,5,917,14,Moderate,9,3,3.9,Moderate,Clear,Urban,Moderate,Yes,39,46,Z7,Z5,No
+ORD-1473,22:14,Tuesday,2,453,21,High,7,2,4.3,Moderate,Clear,Suburban,Moderate,Yes,43,62,Z8,Z7,No
+ORD-1474,21:32,Saturday,2,352,18,High,1,3,1.7,Heavy,Hot,Dense Urban,Experienced,Yes,34,31,Z2,Z2,No
+ORD-1475,22:43,Monday,1,232,11,High,2,2,3.1,Heavy,Clear,Dense Urban,Moderate,No,34,37,Z2,Z4,No
+ORD-1476,14:37,Sunday,3,543,14,Low,2,4,0.8,Low,Clear,Dense Urban,New,No,28,25,Z8,Z1,No
+ORD-1477,11:56,Monday,2,370,20,Very High,6,8,5.8,Low,Hot,Urban,Experienced,No,49,44,Z4,Z6,No
+ORD-1478,11:29,Monday,7,1848,13,Low,2,2,2.0,Low,Clear,Dense Urban,Moderate,No,28,37,Z4,Z6,No
+ORD-1479,11:59,Monday,2,529,10,High,1,2,1.7,Heavy,Clear,Urban,New,No,24,27,Z1,Z4,No
+ORD-1480,13:30,Saturday,8,2142,20,Moderate,6,2,2.7,Moderate,Clear,Urban,Experienced,Yes,39,40,Z1,Z2,No
+ORD-1481,19:44,Wednesday,3,651,16,Very High,4,3,3.3,Moderate,Clear,Urban,Experienced,Yes,36,36,Z7,Z4,No
+ORD-1482,13:46,Tuesday,4,660,17,Moderate,7,4,2.2,Moderate,Clear,Dense Urban,New,Yes,40,33,Z4,Z5,No
+ORD-1483,20:13,Saturday,2,276,25,High,8,6,0.8,Severe,Clear,Dense Urban,Experienced,Yes,48,34,Z6,Z4,No
+ORD-1484,14:38,Saturday,3,488,10,Low,5,2,6.6,Moderate,Clear,Suburban,Moderate,No,32,49,Z4,Z6,No
+ORD-1485,16:03,Monday,3,380,11,Moderate,5,2,5.4,Moderate,Clear,Urban,Moderate,No,35,40,Z4,Z5,No
+ORD-1486,13:45,Friday,5,689,12,Moderate,2,2,2.7,Moderate,Clear,Dense Urban,Experienced,Yes,29,40,Z2,Z7,No
+ORD-1487,19:23,Thursday,3,523,28,Very High,6,2,8.4,Heavy,Clear,Urban,Moderate,Yes,69,65,Z1,Z3,No
+ORD-1488,16:15,Sunday,2,351,14,Very High,1,7,5.1,Low,Clear,Suburban,Experienced,No,40,41,Z6,Z2,Yes
+ORD-1489,14:31,Sunday,1,198,11,High,4,7,1.7,Heavy,Clear,Dense Urban,Experienced,No,53,43,Z7,Z4,No
+ORD-1490,18:42,Thursday,3,563,15,Low,4,2,3.4,Low,Clear,Urban,New,No,34,34,Z3,Z6,No
+ORD-1491,17:23,Friday,2,573,15,High,1,3,4.4,Heavy,Clear,Urban,Moderate,No,41,42,Z2,Z6,Yes
+ORD-1492,19:09,Thursday,5,807,16,High,5,4,1.9,Moderate,Clear,Dense Urban,Experienced,Yes,36,39,Z8,Z7,No
+ORD-1493,22:07,Tuesday,3,317,14,Moderate,2,3,2.0,Heavy,Cold,Dense Urban,Experienced,Yes,32,38,Z6,Z8,No
+ORD-1494,10:53,Saturday,2,402,10,Moderate,2,4,5.2,Moderate,Clear,Suburban,New,No,31,45,Z5,Z8,No
+ORD-1495,09:49,Saturday,4,824,16,Moderate,4,3,1.9,Moderate,Clear,Urban,Moderate,No,31,43,Z2,Z6,No
+ORD-1496,22:11,Monday,3,639,11,Moderate,8,5,8.8,Low,Clear,Urban,Moderate,Yes,53,60,Z3,Z3,No
+ORD-1497,20:10,Saturday,3,1202,11,Moderate,4,2,0.9,Severe,Rain,Dense Urban,Experienced,Yes,28,32,Z1,Z1,No
+ORD-1498,13:10,Sunday,2,228,23,Very High,1,2,1.4,Moderate,Clear,Urban,Experienced,Yes,34,54,Z3,Z6,No
+ORD-1499,11:37,Thursday,3,406,9,Low,1,2,2.5,Low,Clear,Dense Urban,Experienced,No,24,28,Z3,Z3,No
+ORD-1500,09:46,Wednesday,3,575,18,High,7,4,6.9,Low,Rain,Suburban,Moderate,No,46,50,Z6,Z1,No
+ORD-1501,11:50,Tuesday,3,623,14,High,4,9,4.0,Moderate,Clear,Dense Urban,Experienced,No,44,39,Z3,Z1,No
+ORD-1502,20:26,Saturday,3,659,25,Very High,9,2,5.6,Low,Rain,Suburban,Experienced,Yes,54,47,Z5,Z6,Yes
+ORD-1503,20:27,Tuesday,3,875,12,Low,5,2,8.8,Moderate,Clear,Urban,Moderate,Yes,43,58,Z5,Z8,No
+ORD-1504,12:51,Sunday,5,684,27,Very High,3,1,3.1,Heavy,Clear,Dense Urban,Experienced,Yes,49,43,Z2,Z8,No
+ORD-1505,13:16,Wednesday,3,713,18,High,7,4,4.3,Heavy,Clear,Dense Urban,Moderate,Yes,51,44,Z3,Z5,No
+ORD-1506,20:46,Tuesday,3,554,21,Very High,4,2,2.6,Moderate,Clear,Dense Urban,Moderate,Yes,40,45,Z4,Z2,No
+ORD-1507,14:00,Sunday,3,868,16,High,3,7,4.1,Heavy,Clear,Urban,Moderate,Yes,42,66,Z8,Z6,No
+ORD-1508,21:46,Sunday,1,172,7,Moderate,1,2,3.5,Moderate,Fog,Urban,New,Yes,46,39,Z3,Z2,No
+ORD-1509,09:13,Wednesday,1,200,8,Low,1,1,3.1,Moderate,Clear,Dense Urban,Moderate,No,24,29,Z7,Z4,No
+ORD-1510,20:11,Tuesday,2,324,20,High,1,2,5.0,Severe,Hot,Urban,Experienced,Yes,47,53,Z1,Z3,No
+ORD-1511,20:51,Saturday,6,833,15,Low,2,3,2.2,Heavy,Cold,Dense Urban,Experienced,Yes,36,39,Z5,Z7,No
+ORD-1512,09:53,Friday,4,1078,13,High,5,4,2.9,Low,Rain,Dense Urban,Experienced,No,36,36,Z8,Z4,No
+ORD-1513,12:06,Saturday,3,624,23,High,1,3,5.0,Low,Clear,Suburban,New,Yes,41,44,Z2,Z2,No
+ORD-1514,21:52,Friday,2,532,12,Very High,2,4,4.7,Low,Clear,Suburban,Experienced,Yes,42,41,Z1,Z4,No
+ORD-1515,18:08,Thursday,2,586,15,High,1,4,1.9,Moderate,Clear,Dense Urban,Experienced,No,30,32,Z7,Z2,No
+ORD-1516,20:25,Thursday,2,338,11,Very High,10,2,3.6,Moderate,Clear,Suburban,Experienced,Yes,35,37,Z8,Z7,No
+ORD-1517,21:11,Wednesday,2,471,15,High,1,4,6.5,Heavy,Clear,Dense Urban,New,Yes,62,52,Z2,Z5,No
+ORD-1518,19:25,Tuesday,2,511,39,Very High,5,15,2.9,Heavy,Hot,Dense Urban,Moderate,Yes,93,39,Z3,Z7,Yes
+ORD-1519,12:03,Wednesday,4,934,16,Moderate,1,3,2.3,Low,Clear,Urban,Moderate,Yes,28,31,Z7,Z5,No
+ORD-1520,19:17,Saturday,2,601,18,High,2,7,2.4,Heavy,Clear,Suburban,New,Yes,39,33,Z6,Z6,No
+ORD-1521,10:36,Sunday,5,1068,14,Low,3,4,4.8,Moderate,Cold,Urban,Moderate,No,34,46,Z2,Z8,No
+ORD-1522,12:40,Sunday,3,306,13,Moderate,5,3,2.6,Low,Clear,Urban,Experienced,Yes,29,35,Z7,Z2,No
+ORD-1523,19:22,Tuesday,2,563,10,Low,4,5,2.1,Moderate,Cold,Dense Urban,Experienced,Yes,35,32,Z7,Z3,Yes
+ORD-1524,18:57,Saturday,6,497,25,Moderate,1,4,1.8,Low,Clear,Dense Urban,Experienced,No,39,43,Z4,Z7,No
+ORD-1525,19:56,Tuesday,10,2281,43,High,1,1,1.7,Moderate,Clear,Urban,Moderate,Yes,63,44,Z1,Z1,Yes
+ORD-1526,19:36,Sunday,4,1107,20,High,2,6,5.5,Moderate,Clear,Suburban,New,Yes,44,49,Z3,Z2,No
+ORD-1527,23:16,Wednesday,2,252,8,Low,5,2,3.1,Moderate,Clear,Suburban,Moderate,No,25,34,Z4,Z7,No
+ORD-1528,13:17,Thursday,1,134,12,Very High,7,4,5.8,Severe,Clear,Urban,Experienced,Yes,51,51,Z4,Z8,Yes
+ORD-1529,19:15,Tuesday,3,632,17,High,6,5,2.9,Low,Clear,Suburban,Experienced,Yes,37,44,Z4,Z6,No
+ORD-1530,20:01,Friday,3,701,14,Moderate,7,3,4.2,Heavy,Clear,Urban,Moderate,Yes,41,43,Z5,Z5,No
+ORD-1531,17:26,Sunday,2,401,7,Moderate,1,2,9.4,Low,Clear,Suburban,Moderate,No,30,59,Z7,Z7,No
+ORD-1532,14:56,Sunday,1,158,9,Moderate,5,7,1.9,Moderate,Hot,Urban,Moderate,No,30,43,Z6,Z5,No
+ORD-1533,20:05,Thursday,1,318,9,High,6,3,1.3,Moderate,Clear,Urban,Experienced,Yes,25,28,Z7,Z2,No
+ORD-1534,17:54,Monday,3,674,10,Moderate,2,4,1.3,Moderate,Hot,Urban,Experienced,No,26,23,Z6,Z5,Yes
+ORD-1535,13:59,Friday,5,544,13,High,4,9,1.5,Heavy,Clear,Dense Urban,Moderate,Yes,38,36,Z1,Z1,No
+ORD-1536,20:45,Saturday,2,505,14,High,11,6,3.0,Moderate,Clear,Dense Urban,Moderate,Yes,47,40,Z3,Z1,No
+ORD-1537,14:12,Sunday,3,219,28,Very High,5,3,3.9,Heavy,Hot,Urban,Moderate,Yes,54,48,Z2,Z2,No
+ORD-1538,11:21,Saturday,2,451,13,Low,2,3,1.3,Moderate,Rain,Dense Urban,Experienced,No,28,24,Z5,Z6,No
+ORD-1539,22:20,Sunday,4,376,9,Moderate,1,6,2.5,Heavy,Hot,Dense Urban,New,Yes,33,64,Z5,Z3,No
+ORD-1540,19:13,Saturday,1,234,10,Low,3,4,2.1,Heavy,Rain,Urban,Moderate,Yes,29,32,Z1,Z4,No
+ORD-1541,13:42,Thursday,5,1007,22,High,6,4,1.9,Severe,Rain,Dense Urban,Experienced,Yes,48,36,Z1,Z3,No
+ORD-1542,16:43,Sunday,3,831,9,Low,7,3,1.3,Moderate,Clear,Dense Urban,Experienced,No,29,30,Z2,Z3,No
+ORD-1543,12:27,Wednesday,3,599,20,High,2,3,2.0,Moderate,Clear,Suburban,New,Yes,45,31,Z5,Z5,No
+ORD-1544,11:37,Thursday,3,475,16,High,3,4,6.7,Low,Clear,Urban,New,No,46,49,Z1,Z5,Yes
+ORD-1545,18:04,Friday,2,244,8,Low,7,6,10.2,Low,Hot,Suburban,Experienced,No,45,57,Z4,Z5,No
+ORD-1546,14:12,Friday,4,517,25,Very High,1,5,4.9,Moderate,Hot,Urban,Experienced,Yes,47,63,Z5,Z7,No
+ORD-1547,22:05,Saturday,4,996,19,High,1,2,0.9,Moderate,Rain,Urban,Experienced,Yes,29,30,Z8,Z2,No
+ORD-1548,20:32,Friday,3,584,14,High,1,3,2.8,Severe,Rain,Dense Urban,Experienced,Yes,42,36,Z3,Z7,No
+ORD-1549,20:06,Tuesday,2,461,10,Moderate,4,4,2.1,Heavy,Clear,Urban,New,Yes,30,29,Z8,Z7,No
+ORD-1550,15:36,Saturday,2,402,14,High,1,2,4.4,Moderate,Clear,Dense Urban,Moderate,No,37,39,Z2,Z3,No
+ORD-1551,13:52,Saturday,4,502,16,Low,14,2,2.4,Low,Clear,Urban,Moderate,Yes,41,33,Z3,Z6,No
+ORD-1552,16:30,Tuesday,2,393,9,High,2,4,2.2,Moderate,Rain,Suburban,Moderate,No,27,36,Z7,Z3,No
+ORD-1553,21:08,Friday,3,469,14,High,7,6,2.5,Heavy,Fog,Suburban,Moderate,Yes,39,39,Z4,Z6,No
+ORD-1554,18:36,Tuesday,3,300,13,Low,5,3,2.5,Low,Clear,Dense Urban,Experienced,No,32,28,Z1,Z8,No
+ORD-1555,20:25,Friday,4,952,21,High,10,5,3.3,Low,Rain,Dense Urban,Experienced,Yes,49,39,Z3,Z4,No
+ORD-1556,18:16,Thursday,7,1012,28,Very High,10,5,1.9,Low,Rain,Urban,Experienced,No,51,35,Z3,Z4,No
+ORD-1557,12:39,Tuesday,3,491,19,High,5,3,1.5,Heavy,Clear,Dense Urban,Moderate,Yes,39,37,Z1,Z1,No
+ORD-1558,20:16,Thursday,6,1310,11,Low,3,5,3.8,Severe,Clear,Suburban,Experienced,Yes,37,48,Z2,Z7,No
+ORD-1559,20:58,Wednesday,2,347,15,High,6,2,3.6,Severe,Rain,Dense Urban,Moderate,Yes,52,44,Z4,Z3,No
+ORD-1560,17:49,Saturday,1,196,23,Very High,9,3,1.9,Moderate,Clear,Urban,Moderate,No,48,31,Z7,Z4,Yes
+ORD-1561,17:04,Monday,1,346,7,High,3,2,11.7,Moderate,Fog,Urban,Experienced,No,49,67,Z5,Z8,No
+ORD-1562,14:07,Wednesday,2,404,15,High,10,2,4.3,Moderate,Fog,Dense Urban,Moderate,Yes,70,46,Z5,Z3,No
+ORD-1563,17:37,Monday,2,521,11,Low,2,1,4.5,Low,Clear,Suburban,Moderate,No,25,34,Z6,Z2,No
+ORD-1564,18:07,Friday,6,423,13,Moderate,3,1,4.2,Heavy,Clear,Dense Urban,Experienced,No,38,40,Z3,Z2,No
+ORD-1565,21:21,Sunday,4,725,18,Moderate,3,3,1.6,Heavy,Fog,Urban,Experienced,Yes,37,34,Z1,Z2,Yes
+ORD-1566,19:09,Friday,4,834,28,Very High,7,13,3.5,Heavy,Clear,Urban,Moderate,Yes,86,47,Z3,Z8,Yes
+ORD-1567,17:57,Sunday,3,486,13,Moderate,2,4,1.5,Moderate,Cold,Urban,New,No,28,29,Z6,Z1,No
+ORD-1568,21:40,Friday,2,580,19,Very High,6,6,1.4,Moderate,Clear,Urban,New,Yes,38,33,Z2,Z1,No
+ORD-1569,16:28,Saturday,1,147,6,Low,2,4,2.4,Low,Hot,Suburban,Experienced,No,20,31,Z1,Z7,No
+ORD-1570,20:10,Friday,1,223,8,Moderate,16,5,0.9,Heavy,Clear,Suburban,New,Yes,35,23,Z1,Z4,No
+ORD-1571,15:50,Sunday,4,659,20,High,1,3,2.5,Low,Clear,Urban,New,No,33,35,Z3,Z6,No
+ORD-1572,20:24,Monday,2,230,13,Low,13,6,6.8,Heavy,Hot,Dense Urban,Moderate,Yes,65,55,Z4,Z3,No
+ORD-1573,22:01,Thursday,2,365,13,Moderate,6,11,3.5,Low,Hot,Urban,New,Yes,43,37,Z2,Z6,No
+ORD-1574,13:38,Wednesday,3,482,22,High,5,3,4.8,Heavy,Rain,Urban,Moderate,Yes,51,50,Z6,Z5,No
+ORD-1575,13:53,Wednesday,2,473,11,Low,5,7,1.7,Moderate,Rain,Dense Urban,New,Yes,37,57,Z5,Z5,No
+ORD-1576,20:56,Friday,6,996,26,High,1,6,9.1,Moderate,Hot,Urban,Moderate,Yes,66,70,Z8,Z3,No
+ORD-1577,12:38,Monday,2,530,16,High,5,2,3.1,Heavy,Clear,Dense Urban,Experienced,Yes,44,57,Z1,Z5,No
+ORD-1578,14:08,Sunday,3,386,32,Very High,1,6,1.5,Severe,Clear,Dense Urban,Experienced,Yes,52,37,Z5,Z5,No
+ORD-1579,18:47,Wednesday,1,183,7,Low,5,4,6.8,Low,Clear,Urban,Moderate,No,34,45,Z6,Z6,Yes
+ORD-1580,19:43,Monday,4,355,19,High,4,7,3.6,Moderate,Hot,Urban,New,Yes,54,46,Z7,Z8,No
+ORD-1581,13:18,Tuesday,5,1130,35,Very High,3,5,2.2,Heavy,Hot,Dense Urban,Experienced,Yes,56,36,Z3,Z6,No
+ORD-1582,12:31,Wednesday,2,197,21,High,1,3,1.5,Moderate,Clear,Dense Urban,Moderate,Yes,37,31,Z2,Z4,No
+ORD-1583,19:28,Thursday,4,1118,26,High,14,5,2.8,Low,Clear,Suburban,New,Yes,55,41,Z5,Z2,No
+ORD-1584,21:32,Monday,4,711,18,High,6,3,2.1,Moderate,Clear,Urban,Experienced,Yes,47,31,Z1,Z3,No
+ORD-1585,19:59,Tuesday,8,1063,29,High,5,2,8.0,Moderate,Rain,Suburban,Experienced,Yes,57,66,Z3,Z2,No
+ORD-1586,12:40,Friday,5,1063,24,Moderate,4,2,1.7,Severe,Clear,Urban,Experienced,Yes,45,38,Z8,Z7,Yes
+ORD-1587,18:47,Wednesday,2,402,19,High,1,4,1.7,Low,Fog,Dense Urban,Moderate,No,34,24,Z4,Z1,No
+ORD-1588,12:47,Wednesday,4,384,23,Very High,5,4,4.8,Heavy,Cold,Urban,New,Yes,49,48,Z1,Z3,No
+ORD-1589,19:40,Saturday,5,1139,28,Very High,5,3,7.7,Moderate,Clear,Suburban,Experienced,Yes,57,59,Z2,Z1,No
+ORD-1590,22:09,Saturday,4,1401,32,Very High,10,8,3.3,Heavy,Clear,Urban,Moderate,Yes,61,44,Z1,Z5,No
+ORD-1591,19:42,Friday,3,300,17,Moderate,4,3,10.3,Heavy,Clear,Urban,Experienced,Yes,62,72,Z6,Z1,No
+ORD-1592,17:58,Thursday,3,574,14,Moderate,7,9,0.5,Moderate,Rain,Dense Urban,Experienced,No,38,23,Z1,Z5,No
+ORD-1593,13:38,Thursday,2,569,11,Moderate,3,3,3.3,Moderate,Clear,Suburban,Experienced,Yes,49,34,Z1,Z7,No
+ORD-1594,12:33,Wednesday,4,638,21,Moderate,9,7,4.2,Moderate,Hot,Suburban,Experienced,Yes,51,43,Z5,Z1,No
+ORD-1595,11:47,Sunday,2,204,18,High,3,4,5.3,Moderate,Clear,Suburban,Experienced,No,42,45,Z6,Z1,No
+ORD-1596,11:00,Tuesday,2,376,6,Low,1,2,2.8,Low,Clear,Dense Urban,Experienced,No,21,31,Z4,Z1,No
+ORD-1597,19:05,Saturday,2,478,10,High,8,1,3.0,Low,Rain,Suburban,Moderate,Yes,32,52,Z8,Z7,No
+ORD-1598,19:21,Wednesday,4,521,16,High,7,3,2.0,Heavy,Hot,Urban,Experienced,Yes,36,33,Z2,Z6,No
+ORD-1599,13:26,Sunday,4,300,13,Moderate,4,5,3.8,Low,Clear,Urban,New,Yes,38,38,Z8,Z4,Yes

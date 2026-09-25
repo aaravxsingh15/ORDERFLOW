@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+*.log
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+*.tsbuildinfo
+next-env.d.ts
+# trained models are rebuilt automatically (about 30 s) so they always match the installed scikit-learn
+ml/models/*
+!ml/models/.gitkeep
